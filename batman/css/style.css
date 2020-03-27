@@ -6,6 +6,9 @@ body{
 	background-repeat: no-repeat;
 	background-position: top center;
 }
+img{
+	width: 100%;
+}
 .container{
 	max-width: 1140px;
 	margin: auto;
