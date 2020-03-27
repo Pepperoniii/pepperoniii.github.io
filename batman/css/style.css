@@ -230,14 +230,27 @@ body{
 	padding-left: 15px;
 	text-decoration: underline;
 	margin-top: 10px;
+	line-height: 150%;
 }
 .full-info{
 	flex: 0.97;
 }
+.tabs{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.tabs-item:not(:last-child){
+	margin-right: 40px;
+}
 .tabs-item{
 	color: #000;
 	text-decoration: none;
-	margin-right: 40px;
 	font-size: 18px;
 	line-height: 21px;
 }
@@ -254,4 +267,136 @@ body{
 }
 .tabs-content{
 	margin-right: 70px;
+}
+.text{
+	font-size: 16px;
+	line-height: 140%;
+	margin-top: 0;
+}
+.subscribe-title{
+	font-size: 16px;
+	line-height: 150%;
+	margin-bottom: 14px;
+}
+.subscribe-input{
+	background: rgba(196, 196, 196, 0.5);
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.subscribe-button{
+	background: #FF8F27;
+	border-radius: 0px 5px 5px 0px;
+	border: none;
+	padding: 12px;
+}
+.subscribe-form{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 48px;
+}
+
+
+@media (max-width: 1200px) {
+	.container{
+		max-width: 960px;
+	}
+	.content{
+		padding: 2% 3%;
+	}
+	.tabs-content {
+    margin-right: 0px;
+}
+	.tabs{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.tabs-item:not(:last-child) {
+    margin-right: 3%;
+    flex-basis: 20%;
+    line-height: 2;
+}
+	.poster {
+    margin-top: -26%;
+}
+}
+
+@media (max-width: 992px) {
+	.container {
+	    max-width: 750px;
+	}
+	.full-content {
+    	flex-wrap: wrap;
+}
+	.subscribe{
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.container{
+		max-width: 560px;
+	}
+	.more{
+		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.container{
+		width: 90%;
+	}
+	.actors-title, .actors-list, .search{
+		display: none;
+	}
+	.content {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+}
+	.tabs-item:not(:last-child) {
+	    flex-basis: 100%;
+	    line-height: 2;
+}
+	.poster {
+	    margin: 10px auto;
+	    margin-top: -11%;
+
+}
+	.button {
+    	width: 100%;
+}
+	.short-info{
+		width: 100%;
+}
+	.info {
+    margin-bottom: 40px;
+}
+	.tabs{
+		margin-top: 20px;
+	}
+	.tabs-item:last-child {
+		display: none;
+}
+	.movie-info {
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+	.play{
+		margin-top: 25px;
+	}
 }
