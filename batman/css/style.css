@@ -295,7 +295,7 @@ img{
 	background: #FF8F27;
 	border-radius: 0px 5px 5px 0px;
 	border: none;
-	padding: 12px;
+	width: 40px;
 }
 .subscribe-form{
 	display: -webkit-flex;
