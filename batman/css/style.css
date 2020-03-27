@@ -284,6 +284,7 @@ body{
 	padding-bottom: 12px;
 	padding-left: 18px;
 	border: none;
+    border-radius: 0;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
