@@ -236,7 +236,6 @@ div.header .navbar a{
 
 /* coctails	 */
 .endi .create-item_image img{
-	width: 100%;
     position: absolute;
     left: -144px;
     top: -14px;
@@ -809,15 +808,31 @@ ujq2pkBuX!Q!eJT*/
     margin: 0 auto;
     display: block;
 }
-.endi .create-item_image img {
-    top: 62px;
+.cab .create-item_image img {
+    left: -203px;
 }
 .mint .create-item_image img {
-    left: -165px;
+    left: -162px;
+}
+.sunny .create-item_image img {
+    top: 0;
+}
+.qiwi .create-item_image img {
+    position: absolute;
+    left: -263px;
+    top: -35px;
 }
 .endi .create-item_image img {
-    left: -128px;
+    position: absolute;
+    left: -233px;
+    top: -36px;
 }
+.endi .create-item_desc {
+    background-color: #adc358;
+    margin-top: 100px;
+}
+
+
 }
 @media screen and (max-width: 435px) {
 
