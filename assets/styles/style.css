@@ -1,0 +1,738 @@
+@font-face {
+	font-family: "Futura New Book"; 
+	src: url("../fonts/FuturaNewBook.otf"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+@font-face {
+	font-family: "Futura New Light Reg"; 
+	src: url("../fonts/Futura New Light Reg.otf"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+@font-face {
+	font-family: "CirceRounded-Regular3"; 
+	src: url("../fonts/CirceRounded-Regular3.ttf"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+body{
+	font-family: "CirceRounded-Regular3"; 
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-brand-mob{
+	display: none;
+}
+#navbarNav{
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgba(51,220,208, .8);
+}
+.show{
+	display: flex;
+	flex-direction: column;
+}
+.collapsing{
+	display: flex;
+	flex-direction: column;
+}
+.mainBg{
+	z-index: 1;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pos{
+	position: relative;
+}
+.title{
+	font-size: 60px;
+	font-family: "CirceRounded-Regular3"; 
+	text-transform: uppercase;
+}
+div.header .navbar{ 
+	background-color: rgba(51,220,208, .8);
+	font-family: "Futura New Book"; 	
+    height: 120px;
+	padding: 0;
+	z-index: 5;
+}
+div.header .navbar .d-flex{ 
+	margin: 0 auto;
+}
+div.header .navbar a{ 
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+    margin: 0px 3vw;
+}
+.choose{
+  	background-image: url(../images/bg-prod.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.choose-title{
+/*    position: relative;*/
+} 
+.choose-title h2{
+  	background-image: url(../images/bg-button.png);
+  	background-repeat: no-repeat;
+    background-position: top center;
+  	min-width: 400px;
+    min-height: 239px;
+    margin-top: 400px;
+	font-size: 56px;
+	color: white;
+	font-family: "CirceRounded-Regular3"; 
+	text-align: center;
+	line-height: 68px;
+	text-transform: uppercase;
+    padding-top: 25px;
+    z-index: 1;
+    position: relative;
+}
+.choose-title:after{/*
+	content: url(../images/bg-bottel.png);*/
+}
+
+.choose .bottel{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    top: 300px;
+/*
+    top: -91%;*/
+}
+.choose .bottel img{
+	width: 36vw;
+	position: relative;
+	z-index: 2;
+}
+.choose .bottel:before{
+    content: '';
+    position: absolute;
+    top: -34%;
+    left: -184%;
+    background-image: url(../images/bg-water.png);
+    width: 79vw;
+    height: 53vw;
+    display: block;
+    background-size: cover; 
+    z-index: 0;
+
+}
+.silderSec{
+	background-color: unset;
+	z-index: 20;
+	position: relative;
+}
+.sliderSec-item{
+	text-align: center;
+	margin: 0 auto;
+	font-family: "Futura New Book"; 	
+}
+.sliderSec-title{ 
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	background-color: #5d69bf;
+	display: block;
+	border-radius: 60px;
+    width: 678px;
+	box-shadow: 6px 8px 0px -1px rgb(251 109 141);
+	padding: 12px 0;
+	margin: 0 auto;
+	margin-top: 400px;
+}
+.sliderSec-img {
+    height: 750px;
+    position: relative;
+}
+.sliderSec-img img{
+	position: absolute;
+    bottom: 0;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+.slick-slide{ 
+	border: none;
+}
+.slick-slide:focus{
+	outline: none;
+}
+.item-title{
+	font-size: 32px;	
+}
+.item-desc{
+	font-size: 19px;	
+}
+.slider{
+	margin-top: 80px;
+}
+.slick-slide img{
+	margin: 0 auto;
+}
+#prev{
+	position: absolute;
+    left: -60px;
+    z-index: 50;
+    width: 100px;
+    top: 50%;
+}
+#next{
+	position: absolute;
+    right: -40px;
+    z-index: 50;
+    width: 100px;
+    top: 50%;
+}
+.natural{
+	margin-top: 30px;
+}
+.natural-item{
+	text-align: center;
+}
+.natural-desc{
+	font-size: 32px;
+	color: #6666cc;
+	text-transform: uppercase;
+	font-family: "CirceRounded-Regular3"; 
+	margin-top: 20px;
+}
+.create-title{
+	color: #33cccc;
+	text-align: center;
+    margin: 80px auto;
+}
+.item-container{
+	height: 768px;
+	background-color: #9887d7;
+	width: 425px;
+	color: white;
+	font-size: 19px;
+	font-family: "Futura New Book"; 
+	border-radius: 50px;
+    margin-left: auto;
+	position: relative;
+}
+
+
+/* coctails	 */
+.endi .create-item_image img{
+	width: 100%;
+    position: absolute;
+    left: -144px;
+    top: -14px;
+}
+
+.endi .item-container{
+	background-color: #9887d7;
+}
+.endi .create-item_desc{
+	background-color: #adc358;
+}
+.ic.endi:before{
+	background-image: url(../images/endi-bg.png);
+}
+
+.cab .create-item_image img{
+	left: -162px
+}
+.cab .item-container{
+	background-color: #fb728e;
+}
+.cab .create-item_desc{
+	background-color: #5abcd8;
+}
+.ic.cab:before{
+	background-image: url(../images/911-bg.png);
+}
+
+.mint .create-item_image img{
+    left: -118px;
+}
+.mint .item-container{
+	background-color: #33dcd0;
+}
+.mint .create-item_desc{
+	background-color: #adc358;
+}
+.ic.mint:before{
+	background-image: url(../images/mint-bg.png);
+}
+
+.sunny .create-item_image img{
+    left: -201px;
+    top: -22px;
+}
+.sunny .item-container{
+	background-color: #f7c509;
+}
+.sunny .create-item_desc{
+	background-color: #fb728e;
+}
+.ic.sunny:before{
+	background-image: url(../images/sunny-bg.png);
+}
+
+.qiwi .create-item_image img{
+    width: 100%;
+    position: absolute;
+    left: -138px;
+    top: 24px;
+}
+.qiwi .item-container{
+	background-color: #e5876c;
+}
+.qiwi .create-item_desc{
+	background-color: #f6b984;
+}
+.ic.qiwi:before{
+	background-image: url(../images/qiwi-bg.png);
+}
+
+
+
+.ic{
+    overflow: hidden;
+}
+.ic:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/endi-bg.png);
+	display: block;
+	position: absolute;
+	background-repeat: no-repeat;
+    margin-left: 33px;
+}
+.create-item_title{
+	color: white;
+	text-align: center;
+	line-height: 55px;
+    padding-top: 60px;
+}
+.create-item_title:after{
+	content: "";
+	width: 300px;
+	height: 2px;
+	display: block;
+	background-color: white;
+	margin: 0 auto;
+}
+.create-item_image{
+	position: relative;
+}
+.create-item_image img{
+	position: absolute;
+    left: -237px;
+    top: -80px;
+}
+.create-item_composition{
+	float: right;
+    width: 240px;
+    margin: 20px 20px 20px 0;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.create-item_composition ul li{
+	margin: 8px 0;
+}
+.create-item_desc{
+	float: right;
+	background-color: #adc358;
+    width: 308px;
+    padding: 45px;
+    border-bottom-left-radius: 56px;	
+    border-top-left-radius: 56px;	
+}
+section.us{
+	background-image: url(../images/bg-us.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    /* background-size: cover; */
+    margin-top: 60px;
+    background-position: left bottom;
+}
+.us-title{
+	color: #33cccc;
+}
+.us-desc{
+	font-size: 19px;
+    font-family: "Futura New Book";
+    padding-bottom: 220px;
+    margin-top: 10px;
+}
+.videoholder{
+	background-color: #03c2b5;
+	background-size: cover;	
+	background-position: center center;
+}
+.videoholder img{
+margin: auto auto;
+    display: block;
+    padding: 100px 0;
+}
+.there{
+	background-image: url(../images/bg-bottom.png);
+    background-repeat: no-repeat;
+}
+.where{
+	padding-top: 80px;
+}
+.where-title{
+	color: #6666cc;
+	text-align: center;
+}
+.where-slider.slick-slider{
+    margin-top: 60px;
+}
+.where-slider #prev {
+    position: absolute;
+    left: -60px;
+    z-index: 50;
+    width: 100px;
+    top: 22%;
+}
+.where-slider #next {
+    position: absolute;
+    right: -60px;
+    z-index: 50;
+    width: 100px;
+    top: 22%;
+}
+.form{
+	background-image: url(../images/bg-form.png);
+    margin-top: 230px;
+	color: #9999cc;
+	font-size: 16px;
+    height: 686px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.form-inner{
+	width: 750px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.form label{
+    margin: 5px 0;
+}
+.form input{
+	width: 310px;
+	height: 45px;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+.form textarea{
+	width: 310px;
+	height: 120px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.form input:focus{
+	outline: none;
+}
+.form textarea:focus{
+	outline: none;
+}
+.form button{
+	background-color: #f5cd57;
+	width: 220px;
+	height: 60px;
+	color: white;
+	border: none;
+	border-radius: 45px;
+	margin-top: 40px;	
+	font-size: 19px;	
+}
+.form-image img{
+	width: 100%;	
+}
+ul.addres li{
+	font-size: 16px;	
+    line-height: 16px;
+    margin: 7px 0;
+
+}
+ul.social li{
+	list-style-type: none;
+	display: inline-block;	
+    margin-right: 13px;
+    margin-top: 23px;
+}
+.footer{
+    width: 915px;
+    margin: 0 auto;
+    margin-top: 189px;
+}
+.footer img{
+	float: left;
+}
+.footer ul{
+	padding-left: 35px;	
+	float: left;
+}
+.footer ul li{
+	font-family: "Futura New Book"; 	
+	list-style-type: none;
+	font-size: 16px;	
+	color: white;
+	line-height: 18px;	
+}
+.footer ul li:nth-child(1){
+	list-style-type: none;
+	font-size: 18px;	
+	margin-bottom: 5px;
+	text-transform: uppercase;	
+}
+
+@media screen and (max-width: 1199px) {
+	.form{
+    	background-size: contain;
+	}
+	.form-inner {
+	    width: 656px;
+	}
+	.form-title {
+	    font-size: 50px;
+	    margin-top: 25px;
+}
+	.item-title {
+    	font-size: 28px;
+}
+}
+
+@media screen and (min-width: 1920px) {
+	.choose {
+    	background-size: cover;
+}
+	section.us {
+    	background-size: cover;
+}
+	.there {
+    	background-size: cover;
+}
+}
+
+@media screen and (max-width: 991px) {
+.item-container{
+	margin: 0 auto;
+}
+	#navbarNav{
+		justify-content: unset;
+	}
+	a.navbar-brand{
+		display: none;
+	}
+	.navbar-brand-mob{
+		display: block;
+	}
+	div.header .navbar a {
+    margin: 0px 2vw;
+}
+	.choose-title h2{
+		background-size: contain;
+    	font-size: 46px;
+    	line-height: 47px;
+    	padding-top: 18px;
+	}
+	.form{
+    	background-image: url(../images/bg-forn-mob.png);
+    	background-size: contain;
+	}
+	.form-image img {
+   		width: unset;
+   		margin: 0 auto;
+   		display:block;
+}
+
+.where {
+    padding-top: 40px;
+}
+
+	.form{
+		height: unset;
+		margin-top: 70px;
+	}
+	form{
+	    width: 300px;
+	    margin: 0 auto;
+	}
+	.form-title {
+		text-align: center;
+	    font-size: 40px;
+    	margin-top: 38px;
+}
+
+	.form input {
+		display: block;
+		margin: 0 auto;
+}	
+	
+	.submit{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.footer {
+	    margin: 0 auto;
+	    margin-top: 30px;
+}
+	.footer ul {
+	    padding-left: 35px;
+	    float: none;
+}	
+	.form-inner {
+    width: 100%;
+}		
+	.addres{
+		margin-top: 30px;
+		padding: 0;
+	}
+	ul.addres li {
+    width: 180px;
+    margin: 7px auto;
+}
+
+	.social{
+		text-align: center;
+    	padding-bottom: 40px;
+	}
+.create #prev {
+    position: absolute;
+    right: 50%;
+    z-index: 50;
+    width: 100px;
+    top: 100%;
+    left: unset;
+}
+.create #next {
+    position: absolute;
+    z-index: 50;
+    width: 100px;
+    top: 100%;
+    left: 50%;
+    right: unset;
+}	
+.us-title {
+    margin-top: 70px;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+
+	div.header .navbar a {
+    	margin: 0px 2vw;
+	}
+
+	.choose-title h2{
+	    background-size: contain;
+	    font-size: 35px;
+	    line-height: 47px;
+	    padding-top: 4px;
+	}
+
+	.form{
+    	background-image: url(../images/bg-forn-mob.png);
+    	
+	}
+	.form-image img {
+   		width: unset;
+	}	
+
+	.sliderSec-title{
+		width: unset;
+	}
+
+	.title{
+		font-size: 46px;
+	}
+.silderSec #prev {
+	left: 0;
+}
+.silderSec #next {
+	right: 0;
+}		
+.create-item_image img {
+    width: 80%;
+    margin-left: 20px
+}
+.there {
+    background-image: url(../images/bg-button-mob.png);
+    background-position: bottom;
+    background-size: cover;
+}
+.where-slider_item img {
+    display: block;
+    width: 100%;
+}
+.where-slider_item{
+    width: 117px;
+    margin: 0 auto;
+}
+.where-slider #prev {
+    position: absolute;
+    right: 50%;
+    z-index: 50;
+    width: 100px;
+    top: 100%;
+    left: unset;
+}
+.where-slider #next {
+    position: absolute;
+    z-index: 50;
+    width: 100px;
+    top: 100%;
+    left: 50%;
+    right: unset;
+}
+
+.ic:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/endi-bg.png);
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 0;
+}
+}
+/*
+ujq2pkBuX!Q!eJT*/
+@media screen and (max-width: 991px) {
+
+.choose-title h2{
+	margin-top: 80px;
+}
+.choose .bottel img {
+    width: 100vw;
+    z-index: 1;
+}
+.choose .bottel {
+    top: 130px;
+}
+.choose .bottel:before {
+    top: -17%;
+    left: -92%;
+    width: 123vw;
+    height: 53vw;
+    z-index: 1;
+}
+}

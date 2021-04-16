@@ -1,50 +1,547 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="assets/styles/style.css">
+	<link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/slick/slick.css">
+	<title>Starbar</title>
 </head>
 <body>
-	<a href="#" class="js-bookmark" title="Добавить в закладки">asd</a>
 
-<script
-  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-  crossorigin="anonymous"></script>
+<section class="choose">
+	<div class="container-fluid"><!-- 
+		<img src="assets/images/bg-prod-holder.png" alt="" class="mainBg"> -->
+			<div class="header">
+					<nav class="navbar navbar-expand-lg ">
+						<a class="navbar-brand-mob" href="#">
+						   	<img src="assets/images/logo-top.png" alt="starbar">
+						</a>
+    					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      					
+      					<img src="assets/images/icon-menu.png" alt="">
+   						 </button>							
+					  <div id="navbarNav" class="navbar-collapse collapse ">
+						  	<a href="#">Продукты</a>
+						  	<a href="#">Рецепты</a>
+						    <a class="navbar-brand" href="#">
+						    	<img src="assets/images/logo-top.png" alt="starbar">
+						    </a>
+							<a href="#">О компании</a>
+						    <a href="#">Контакты</a>					    
+			  			</div>
+					</nav>
+			</div>
+		</div>
+	<div class="container">
+<!-- 					<nav class="navbar">
+					  <div class="d-flex justify-content-space-between align-items-center">
+					  	<a href="#">Продукты</a>
+					  	<a href="#">Рецепты</a>
+					    <a class="navbar-brand" href="#">
+					    	<img src="assets/images/logo-top.png" alt="starbar">
+					    </a>
+						<a href="#">О компании</a>
+					    <a href="#">Контакты</a>
+			  			</div>
+					</nav>	 -->
+		<div class="row">
+			<div class="col-12 p-0">
+				<div class="choose-title">
+					<div class="bottel">
+						<img src="assets/images/bg-bottel.png" alt="">
+					</div>
+					<h2>Для тех, кто всегда<br>в поисках нового</h2> 
+				</div>
+			</div>
+		</div>
+		<div class="silderSec">
+			<div class="row">
+				<div class="col-12">
+					<div class='sliderSec-title title'>выбери свой вкус</div>
+				</div>
+			</div>
+			<div class="slider">
+				<div class="col-3 col-md-6">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/tonic-indian.png" alt="">
+						</div>
+						<div class="item-title">ИНДИАН ТОНИК (1Л)</div>
+						<div class="item-desc">Классика с насыщенно-горьким вкусом. Идеальный компонент для многочисленных коктейлей</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/bitter-lemon.png" alt="">
+						</div>
+						<div class="item-title">БИТТЕР ЛИМОН (1Л)</div>
+						<div class="item-desc">Освежающий напиток с добавлением лимонного сока</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/bitter-grape.png" alt="">
+						</div>
+						<div class="item-title">БИТТЕР ГРЕЙПФРУТ (1Л)</div>
+						<div class="item-desc">Освежающий напиток с натуральным соком грейпфрута</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/bitter-lemon-33.png" alt="">
+						</div>
+						<div class="item-title">БИТТЕР ЛИМОН (0,33Л)</div>
+						<div class="item-desc">Освежающий напиток с добавлением лимонного сока</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/soda-water-33.png" alt="">
+						</div>
+						<div class="item-title">СОДОВАЯ (0,33Л)</div>
+						<div class="item-desc">Напиток без добавления сахара для употребления в чистом виде или приготовления коктейлей</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/bitter-grape-175.png" alt="">
+						</div>
+						<div class="item-title">БИТТЕР ГРЕЙПФРУТ (0,175Л)</div>
+						<div class="item-desc">Освежающий напиток с натуральным соком грейпфрута</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/bitter-lemon-175.png" alt="">
+						</div>
+						<div class="item-title">БИТТЕР ЛИМОН (0,175Л)</div>
+						<div class="item-desc">Освежающий напиток с добавлением лимонного сока</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/bitter-indian-175.png" alt="">
+						</div>
+						<div class="item-title">ИНДИАН ТОНИК (0,175Л)</div>
+						<div class="item-desc">Классика с насыщенно-горьким вкусом. Идеальный компонент для многочисленных коктейлей</div>
+					</div>
+				</div>
+			</div>
+			<div class="silderSec-nav"></div>
+		</div>
 
-<script type="text/javascript">
-  if (location.search.substring(1) == "addFav") {
-    test()
-  }
-function test() {
-    
-    if (window.sidebar && window.sidebar.addPanel) { // Firefox <23
-        
-        window.sidebar.addPanel(document.title,window.location.href,'');
+		
+	</div>
+</section>
 
-    } else if(window.external && ('AddFavorite' in window.external)) { // Internet Explorer
+<section class="natural">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-4">
+				<div class="natural-item">
+					<div class="natural-image"><img src="assets/images/natural-image-1.png" alt=""></div>
+					<div class="natural-desc">Натуральные ингридиенты</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="natural-item">
+					<div class="natural-image"><img src="assets/images/natural-image-2.png" alt=""></div>
+					<div class="natural-desc">Яркие вкусы</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="natural-item">
+					<div class="natural-image"><img src="assets/images/natural-image-3.png" alt=""></div>
+					<div class="natural-desc">Идеальный объем</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-        window.external.AddFavorite(location.href,document.title); 
+<section class="create">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="create-title title">Cоздай себе настроение</div>
+			</div>
+		</div>
+		<div class="row slider-create">
+			<div class="col-6 ic endi">
+				<div class="item-container">
+					<div class="create-item_title title">Энди Уильямс</div>
+					<div class="create-item_image"><img src="assets/images/endi-image.png" alt=""></div>
+					<div class="create-item_composition">
+						<ul>
+							<li>60мл тоника</li>
+							<li>15мл лаймового сока</li>
+							<li>сахарный сироп</li>
+							<li>содовая</li>
+						</ul>
+					</div>
+					<div class="create-item_desc">
+						Встряхните со льдом и налейте. Украшение: тонкий ломтик лайма в стакане.
+					</div>
+				</div>
+			</div>
+			<div class="col-6 ic cab">
+				<div class="item-container">
+					<div class="create-item_title title">Кабриолет 911</div>
+					<div class="create-item_image"><img src="assets/images/911-image.png" alt=""></div>
+					<div class="create-item_composition">
+						<ul>
+							<li>20мл  
+     безалкогольного  
+     ликера КюрасАо блу</li>
+							<li>20мл сока 
+     грейпфрутов</li>
+							<li>10мл сиропа 
+     из лаймов</li>
+							<li>100мл индиан тоник</li>
+							<li>1 кисточка 
+     темного винограда</li>
+						</ul>
+					</div>
+					<div class="create-item_desc">
+						Все компоненты, вместе со льдом встряхните в шейкере, процедите в стакан и долейте тоником. Веточку винограда повесьте  на край стакана. 
+					</div>
+				</div>
+			</div>
+			<div class="col-6 ic mint">
+				<div class="item-container">
+					<div class="create-item_title title">Горькая мята</div>
+					<div class="create-item_image"><img src="assets/images/mint-image.png" alt=""></div>
+					<div class="create-item_composition">
+						<ul>
+							<li>60мл сока 
+     грейпфрутов</li>
+							<li>30мл мятного 
+     сиропа</li>
+							<li>100мл ИНДИАН ТОНИК</li>
+							<li>1 веточка мяты</li>
+						</ul>
+					</div>
+					<div class="create-item_desc">
+						Встряхните со льдом и налейте. Украшение: тонкий ломтик лайма в стакане.
+					</div>
+				</div>
+			</div>
+			<div class="col-6 ic sunny">
+				<div class="item-container">
+					<div class="create-item_title title">Солнечное излучение</div>
+					<div class="create-item_image"><img src="assets/images/sunny-image.png" alt=""></div>
+					<div class="create-item_composition">
+						<ul>
+							<li>80мл сока манго</li>
+							<li>20мл сиропа 
+     из лаймов</li>
+							<li>100МЛ ИНДИАН ТОНИК</li>
+							<li>1 кружок апельсина</li>
+							<li>1 веточка 
+     лимонной мелиссы</li>
+						</ul>
+					</div>
+					<div class="create-item_desc">
+						Сок манго и сироп из лаймов смешать. Долейте тоником и перемешайте. Кружок апельсина и веточку мяты нанижите на край стакана.
+					</div>
+				</div>
+			</div>
+			<div class="col-6 ic qiwi">
+				<div class="item-container">
+					<div class="create-item_title title">Киви-киви</div>
+					<div class="create-item_image"><img src="assets/images/qiwi-image.png" alt=""></div>
+					<div class="create-item_composition">
+						<ul>
+							<li>6 кружочков 
+     очищенного киви</li>
+							<li>10мл лимонного 
+     сока</li>
+							<li>20мл малинового 
+     сиропа</li>
+							<li>Bitter lemon</li>
+						</ul>
+					</div>
+					<div class="create-item_desc">
+						Кружки киви положите в стакан для лонгдринка. Налейте сок и сироп, долейте биттером. 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-    } else if(window.opera && window.print || window.sidebar && ! (window.sidebar instanceof Node)) { // Opera <15 и Firefox >23
-        /**
-         *  Для Firefox <23 и Opera <15 нет необходимости добавлять JS в закладки
-         * Единственное, что нужно, это `title` and a `rel="sidebar"`
-         */
-        triggerBookmark.attr('rel', 'sidebar').attr('title', document.title);
-        return true;
-    
-    } else { // Для других браузеров (в основном WebKit) мы используем простое оповещение, чтобы информировать пользователей о том, что они могут добавлять в закладки с помощью ctrl + D / cmd + D
-        
-        alert('Вы можете добавить эту страницу в закладки, нажав ' + (navigator.userAgent.toLowerCase().indexOf('mac') != - 1 ? 'Command/Cmd' : 'CTRL') + ' + D на клавиатуре.');
-    
-    }
-    // Если у вас есть что-то в `href` вашего триггера
-    return false;
-};
-  </script>
+<section class="us">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="us-title title">о НАС</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="us-desc">
+				Мы создаем новые напитки, потому что любим это. Мы следим за трендами, слышим наших потребителей и используем собственную интуицию - именно это позволяет создавать нам нечто особенное. Свежие вкусы, современный дизайн упаковки и качество — это то, что мы стараемся сохранить, преумножить и предложить нашим покупателям. В специальной линейке STARbar мы собрали коллекцию неординарных газированных напитков.  Звезды линейки – “Индиан Тоник” и Биттеры содержат натуральный сок цитрусовых. В наше время стало популярным использовать биттеры, мохито и содовую для приготовления оригинальных напитков и коктейлей. Откройте для себя яркую палитру вкусов STARbar!</div>
+			</div>
+		</div>
+	</div>
+</section>
 
+<section class="video">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 p-0">
+				<div class="videoholder">
+					<img src="assets/images/video-bg.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
+<section class="there">
+
+	<div class="where">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="where-title title">где купить</div>
+				</div>
+			</div>
+			<div class="row where-slider">
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/ozon.png" alt="">
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/perek.png" alt="">
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/metro.png" alt="">
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/lenta.png" alt="">
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/wb.png" alt="">
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/sber.png" alt="">
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/globus.png" alt="">
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/ok.png" alt="">
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="where-slider_item">
+						<img src="assets/images/aushan.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>		
+
+	</div>
+
+	<div class="container">
+		<div class="form d-none d-lg-block">
+			<div class="form-inner">
+				<div class="row">
+					<div class="col-12">
+						<div class="form-title title">Есть вопросы?</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<form action="">
+							<label for="name">Имя*</label><br>
+							<input type="text" placeholder="" required name='name'><br>
+							<label for="email">Email*</label><br>
+							<input type="email" placeholder="" required name='email'><br>
+							<label for="tel">Телефон</label><br>
+							<input type="tel" placeholder="" name="tel"><br>
+							<label for="mess">Текст сообщения*</label><br>
+							<textarea name="mess" placeholder="" id="" required></textarea><br>
+							<button class="submit">Отправить</button>
+						</form>
+					</div>
+					<div class="col-6">
+						<div class="form-image">
+							<img src="assets/images/form-image.png" alt="">
+						</div>
+						<ul class="addres">
+							<li>141595, Московская обл., Солнечногорский р-н, д. Ложки;</li>
+							<li>+7 (499) 189-37-37</li>
+							<li>office@senegskaya.ru</li>
+						</ul>
+						<ul class="social">
+							<li><a href="#"><img src="assets/images/icon-face.png"></a></li>
+							<li><a href="#"><img src="assets/images/icon-vk.png"></a></li>
+							<li><a href="#"><img src="assets/images/icon-inst.png"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form d-lg-none">
+			<div class="form-inner">
+				<div class="row">
+					<div class="col-12">
+						<div class="form-title title">Есть вопросы?</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="form-image">
+							<img src="assets/images/form-image.png" alt="">
+						</div>
+						<form action="">
+							<label for="name">Имя*</label><br>
+							<input type="text" placeholder="" required name='name'><br>
+							<label for="email">Email*</label><br>
+							<input type="email" placeholder="" required name='email'><br>
+							<label for="tel">Телефон</label><br>
+							<input type="tel" placeholder="" name="tel"><br>
+							<label for="mess">Текст сообщения*</label><br>
+							<textarea name="mess" placeholder="" id="" required></textarea><br>
+							<button class="submit">Отправить</button>
+						</form>
+						<ul class="addres">
+							<li>141595, Московская обл., Солнечногорский р-н, д. Ложки;</li>
+							<li>+7 (499) 189-37-37</li>
+							<li>office@senegskaya.ru</li>
+						</ul>
+						<ul class="social">
+							<li><a href="#"><img src="assets/images/icon-face.png"></a></li>
+							<li><a href="#"><img src="assets/images/icon-vk.png"></a></li>
+							<li><a href="#"><img src="assets/images/icon-inst.png"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<img src="assets/images/logo-bottom.png" alt="">
+					<ul>
+						<li>ООО "ФКПЧФ БОБИМЭКС ТМ"</li>
+						<li>Производство:</li>
+						<li>141595, Московская обл., Солнечногорский р-н, д. Ложки; Тел: +7 (499) 189-37-37, fabrika@senegskaya.ru</li>
+						<li>Продажи:</li>
+						<li>129329, г. Москва, Кольская д.2, корп. 4; Тел: +7 (499) 189-37-37, +7 (495) 786-22-33, office@senegskaya.ru</li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</div>
+</section>		
+
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.js"></script>
+<script src="assets/slick/slick.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+  $('.slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/slider-arrow-left.png"></button>',
+	  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/slider-arrow-right.png"></button>',
+	  responsive: [
+	    {
+	      breakpoint: 991,
+	      settings: {
+	        slidesToShow: 2,
+	        slidesToScroll: 1,
+	        infinite: true
+	      }
+	    },
+	    {
+	      breakpoint: 767,
+	      settings: {
+	        slidesToShow: 1
+	      }
+	    },
+	    {
+	      breakpoint: 400,
+	      settings: {
+	        slidesToShow: 1
+	      }
+	    }
+	  ]
+  });
+});
+
+	$(document).ready(function(){
+  $('.slider-create').slick({
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/create-arrow-left.png"></button>',
+  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/create-arrow-right.png"></button>',
+	  responsive: [
+	    {
+	      breakpoint: 1024,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true
+	      }
+	    }
+	    // You can unslick at a given breakpoint now by adding:
+	    // settings: "unslick"
+	    // instead of a settings object
+	  ]
+  });
+});	
+
+	$(document).ready(function(){
+  $('.where-slider').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/where-arrow-left.png"></button>',
+  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/where-arrow-right.png"></button>',
+  responsive: [
+	    {
+	      breakpoint: 1024,
+	      settings: {
+	        slidesToShow: 3,
+	        slidesToScroll: 1,
+	        infinite: true,
+	      }
+	    }
+	    // You can unslick at a given breakpoint now by adding:
+	    // settings: "unslick"
+	    // instead of a settings object
+	  ]
+  });
+});	
+</script>
 </body>
 </html>
