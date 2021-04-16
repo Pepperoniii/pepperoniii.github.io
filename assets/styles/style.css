@@ -235,10 +235,10 @@ div.header .navbar a{
 
 
 /* coctails	 */
-.endi .create-item_image img{
+.endi .create-item_image img {
     position: absolute;
-    left: -144px;
-    top: -14px;
+    left: -209px;
+    top: -48px;
 }
 
 .endi .item-container{
@@ -291,10 +291,10 @@ div.header .navbar a{
 	background-image: url(../images/sunny-bg.png);
 }
 
-.qiwi .create-item_image img{
+.qiwi .create-item_image img {
     position: absolute;
-    left: -138px;
-    top: 24px;
+    left: -208px;
+    top: -5px;
 }
 .qiwi .item-container{
 	background-color: #e5876c;
@@ -464,10 +464,46 @@ margin: auto auto;
 .form-image img{
 	width: 100%;	
 }
+ul.addres{
+	list-style-type: none;
+}
+ul.addres li:nth-child(1)::before{
+	content: '';
+	background-image: url(../images/icon-geo.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+    left: -23px;
+}
+ul.addres li:nth-child(2)::before{
+	content: '';
+	background-image: url(../images/icon-phone.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+    left: -21px;
+}
+ul.addres li:nth-child(3)::before{
+	content: '';
+	background-image: url(../images/icon-mess.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+    left: -20px;
+    top: 4px;
+
+}
 ul.addres li{
 	font-size: 16px;	
     line-height: 16px;
     margin: 7px 0;
+    position: relative;
 
 }
 ul.social li{

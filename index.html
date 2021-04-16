@@ -11,8 +11,7 @@
 <body>
 
 <section class="choose">
-	<div class="container-fluid"><!-- 
-		<img src="assets/images/bg-prod-holder.png" alt="" class="mainBg"> -->
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 p-0">
 				<div class="header">
@@ -34,22 +33,11 @@
 							    <a href="#contact">Контакты</a>					    
 				  			</div>
 						</nav>
-					</div>
-				</div>		
-			</div>
+				</div>
+			</div>		
 		</div>
+	</div>
 	<div class="container">
-<!-- 					<nav class="navbar">
-					  <div class="d-flex justify-content-space-between align-items-center">
-					  	<a href="#">Продукты</a>
-					  	<a href="#">Рецепты</a>
-					    <a class="navbar-brand" href="#">
-					    	<img src="assets/images/logo-top.png" alt="starbar">
-					    </a>
-						<a href="#">О компании</a>
-					    <a href="#">Контакты</a>
-			  			</div>
-					</nav>	 -->
 		<div class="row">
 			<div class="col-12 p-0">
 				<div class="choose-title">
@@ -139,12 +127,35 @@
 						<div class="item-desc">Классика с насыщенно-горьким вкусом. Идеальный компонент для многочисленных коктейлей</div>
 					</div>
 				</div>
-			</div>
-			<div class="silderSec-nav"></div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/bitter-grape33.png" alt="">
+						</div>
+						<div class="item-title">БИТТЕР ГРЕЙПФРУТ (0,33Л)</div>
+						<div class="item-desc">Освежающий напиток с натуральным соком грейпфрута</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/bitter-indian-33.png" alt="">
+						</div>
+						<div class="item-title">ИНДИАН ТОНИК (0,33Л)</div>
+						<div class="item-desc">Классика с насыщенно-горьким вкусом. Идеальный компонент для многочисленных коктейлей</div>
+					</div>
+				</div>
+				<div class="col-3 col-md-6 col-xs-12">
+					<div class="sliderSec-item">
+						<div class="sliderSec-img">
+							<img src="assets/images/mojito.png" alt=""> </div>
+						<div class="item-title">МОХИТО (0,33Л)</div>
+						<div class="item-desc">Освежающий тонизирующий напиток со вкусом лайма и мяты</div>
+					</div>
+				</div>
+			</div> 
+		</div> 
 		</div>
-
-		
-	</div>
 </section>
 
 <section class="natural">
@@ -371,8 +382,8 @@
 
 	</div>
 
-	<div class="container">
-		<div class="form d-none d-lg-block" id="contact">
+	<div class="container" id="contact">
+		<div class="form d-none d-lg-block">
 			<div class="form-inner">
 				<div class="row">
 					<div class="col-12">
@@ -411,7 +422,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="form d-lg-none" id="contact">
+		<div class="form d-lg-none">
 			<div class="form-inner">
 				<div class="row">
 					<div class="col-12">
@@ -469,81 +480,6 @@
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="assets/slick/slick.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script>
-	$(document).ready(function(){
-  $('.slider').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/slider-arrow-left.png"></button>',
-	  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/slider-arrow-right.png"></button>',
-	  responsive: [
-	    {
-	      breakpoint: 991,
-	      settings: {
-	        slidesToShow: 2,
-	        slidesToScroll: 1,
-	        infinite: true
-	      }
-	    },
-	    {
-	      breakpoint: 767,
-	      settings: {
-	        slidesToShow: 1
-	      }
-	    },
-	    {
-	      breakpoint: 400,
-	      settings: {
-	        slidesToShow: 1
-	      }
-	    }
-	  ]
-  });
-});
-
-	$(document).ready(function(){
-  $('.slider-create').slick({
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/create-arrow-left.png"></button>',
-  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/create-arrow-right.png"></button>',
-	  responsive: [
-	    {
-	      breakpoint: 1024,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1,
-	        infinite: true
-	      }
-	    }
-	    // You can unslick at a given breakpoint now by adding:
-	    // settings: "unslick"
-	    // instead of a settings object
-	  ]
-  });
-});	
-
-	$(document).ready(function(){
-  $('.where-slider').slick({
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/where-arrow-left.png"></button>',
-  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/where-arrow-right.png"></button>',
-  responsive: [
-	    {
-	      breakpoint: 1024,
-	      settings: {
-	        slidesToShow: 3,
-	        slidesToScroll: 1,
-	        infinite: true,
-	      }
-	    }
-	    // You can unslick at a given breakpoint now by adding:
-	    // settings: "unslick"
-	    // instead of a settings object
-	  ]
-  });
-});	
-</script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
