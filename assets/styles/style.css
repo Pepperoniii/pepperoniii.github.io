@@ -672,7 +672,6 @@ ul.social li{
 	right: 0;
 }		
 .create-item_image img {
-    width: 80%;
     margin-left: 20px
 }
 .there {
@@ -785,8 +784,7 @@ ujq2pkBuX!Q!eJT*/
     font-size: 22px;
 }
 .item-container {
-    height: 530px;
-    width: 230px;
+    width: 310px;
     margin-right: 0;
     font-size: 14px;
 }
