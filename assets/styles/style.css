@@ -168,7 +168,7 @@ div.header .navbar a{
 	position: absolute;
     bottom: 0;
 	top:50%;
-	left:50%;
+    left: 50%;
 	transform:translate(-50%, -50%);
 }
 .slick-slide{ 
@@ -293,7 +293,6 @@ div.header .navbar a{
 }
 
 .qiwi .create-item_image img{
-    width: 100%;
     position: absolute;
     left: -138px;
     top: 24px;
@@ -652,8 +651,8 @@ ul.social li{
 	}
 
 	.form{
-    	background-image: url(../images/bg-forn-mob.png);
-    	
+    	background-image: url(../images/bg-forn-mob.png);	
+		margin-top: 130px;
 	}
 	.form-image img {
    		width: unset;
@@ -717,8 +716,20 @@ ul.social li{
     margin-left: 0;
 }
 .choose-title h2 {
-	min-width: unset;
+	background-size: cover;
+    font-size: 29px;
+    line-height: 41px;
+    padding-top: 4px;
+    min-height: 102px;
+
 }
+.sliderSec-title {
+    font-size: 32px;
+}
+.choose {
+    background-size: cover;
+}
+
 }
 /*
 ujq2pkBuX!Q!eJT*/
@@ -746,5 +757,77 @@ ujq2pkBuX!Q!eJT*/
 }
 .footer img{
     height: 120px;
+}
+}
+@media screen and (max-width: 500px) {
+
+.choose-title h2 {
+	background-size: cover;
+    font-size: 29px;
+    line-height: 41px;
+    padding-top: 4px;
+    min-height: 102px;
+    min-width: unset;
+
+}
+.sliderSec-title {
+    font-size: 32px;
+}
+.ic:before {
+    margin-left: -70px;
+    height: 57%;
+}
+.create-item_title {
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    padding-top: 60px;
+    font-size: 22px;
+}
+.item-container {
+    height: 530px;
+    width: 230px;
+    margin-right: 0;
+    font-size: 14px;
+}
+.create-item_composition {
+    width: 160px;
+    margin: 22px 9px 0 0;
+}
+.create-item_desc {
+    float: right;
+    width: 189px;
+    padding: 29px;
+	padding-right: 17px;
+}
+.form input {
+    width: 90%;
+}
+.form textarea {
+    width: 90%;
+    height: 120px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    display: block;
+}
+.endi .create-item_image img {
+    top: 62px;
+}
+.mint .create-item_image img {
+    left: -165px;
+}
+.endi .create-item_image img {
+    left: -128px;
+}
+}
+@media screen and (max-width: 435px) {
+
+.form {
+    background-image: url(../images/bg-forn-mob.png);
+    background-size: cover;
+}
+.where-title {
+    margin-top: 91px;
 }
 }
