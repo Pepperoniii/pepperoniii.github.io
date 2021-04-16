@@ -2,8 +2,8 @@ $(document).ready(function(){
   $('.slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="../assets/templates/starbar/assets/images/slider-arrow-left.png"></button>',
-	  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="../assets/templates/starbar/assets/images/slider-arrow-right.png"></button>',
+  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/slider-arrow-left.png"></button>',
+	  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/slider-arrow-right.png"></button>',
 	  responsive: [
 	    {
 	      breakpoint: 991,
@@ -33,8 +33,8 @@ $(document).ready(function(){
   $('.slider-create').slick({
   slidesToShow: 2,
   slidesToScroll: 1,
-  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="../assets/templates/starbar/assets/images/create-arrow-left.png"></button>',
-  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="../assets/templates/starbar/assets/images/create-arrow-right.png"></button>',
+  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/create-arrow-left.png"></button>',
+  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/create-arrow-right.png"></button>',
 	  responsive: [
 	    {
 	      breakpoint: 1024,
@@ -55,8 +55,8 @@ $(document).ready(function(){
   $('.where-slider').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
-  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="../assets/templates/starbar/assets/images/where-arrow-left.png"></button>',
-  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="../assets/templates/starbar/assets/images/where-arrow-right.png"></button>',
+  prevArrow: '<button id="prev" type="button" class="btn btn-juliet"><img src="assets/images/where-arrow-left.png"></button>',
+  nextArrow: '<button id="next" type="button" class="btn btn-juliet"><img src="assets/images/where-arrow-right.png"></button>',
   responsive: [
 	    {
 	      breakpoint: 1024,
