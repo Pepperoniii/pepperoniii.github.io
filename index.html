@@ -13,25 +13,29 @@
 <section class="choose">
 	<div class="container-fluid"><!-- 
 		<img src="assets/images/bg-prod-holder.png" alt="" class="mainBg"> -->
-			<div class="header">
-					<nav class="navbar navbar-expand-lg ">
-						<a class="navbar-brand-mob" href="#">
-						   	<img src="assets/images/logo-top.png" alt="starbar">
-						</a>
-    					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      					
-      					<img src="assets/images/icon-menu.png" alt="">
-   						 </button>							
-					  <div id="navbarNav" class="navbar-collapse collapse ">
-						  	<a href="#">Продукты</a>
-						  	<a href="#">Рецепты</a>
-						    <a class="navbar-brand" href="#">
-						    	<img src="assets/images/logo-top.png" alt="starbar">
-						    </a>
-							<a href="#">О компании</a>
-						    <a href="#">Контакты</a>					    
-			  			</div>
-					</nav>
+		<div class="row">
+			<div class="col-12 p-0">
+				<div class="header">
+						<nav class="navbar navbar-expand-lg ">
+							<a class="navbar-brand-mob" href="#">
+							   	<img src="assets/images/logo-top.png" alt="starbar">
+							</a>
+	    					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      					
+	      					<img src="assets/images/icon-menu.png" alt="">
+	   						 </button>							
+						  <div id="navbarNav" class="navbar-collapse collapse ">
+							  	<a href="#sliderSec">Продукты</a>
+							  	<a href="#create">Рецепты</a>
+							    <a class="navbar-brand" href="#">
+							    	<img src="assets/images/logo-top.png" alt="starbar">
+							    </a>
+								<a href="#us">О компании</a>
+							    <a href="#contact">Контакты</a>					    
+				  			</div>
+						</nav>
+					</div>
+				</div>		
 			</div>
 		</div>
 	<div class="container">
@@ -59,7 +63,7 @@
 		<div class="silderSec">
 			<div class="row">
 				<div class="col-12">
-					<div class='sliderSec-title title'>выбери свой вкус</div>
+					<div class='sliderSec-title title' id="sliderSec">выбери свой вкус</div>
 				</div>
 			</div>
 			<div class="slider">
@@ -168,7 +172,7 @@
 	</div>
 </section>
 
-<section class="create">
+<section class="create" id="create">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -279,7 +283,7 @@
 	</div>
 </section>
 
-<section class="us">
+<section class="us" id="us">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -375,7 +379,7 @@
 						<div class="form-title title">Есть вопросы?</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="contact">
 					<div class="col-6">
 						<form action="">
 							<label for="name">Имя*</label><br>
@@ -448,7 +452,7 @@
 	<div class="footer">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12 d-flex">
 					<img src="assets/images/logo-bottom.png" alt="">
 					<ul>
 						<li>ООО "ФКПЧФ БОБИМЭКС ТМ"</li>

@@ -24,6 +24,9 @@ button:focus:not(:focus-visible) {
     text-decoration: none;
     box-shadow: 0 0 0 0;
 }
+.header{
+	padding: 0;
+}
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
@@ -713,6 +716,9 @@ ul.social li{
     background-repeat: no-repeat;
     margin-left: 0;
 }
+.choose-title h2 {
+	min-width: unset;
+}
 }
 /*
 ujq2pkBuX!Q!eJT*/
@@ -734,5 +740,11 @@ ujq2pkBuX!Q!eJT*/
     width: 123vw;
     height: 53vw;
     z-index: 1;
+}
+.footer {
+   width: unset;
+}
+.footer img{
+    height: 120px;
 }
 }
