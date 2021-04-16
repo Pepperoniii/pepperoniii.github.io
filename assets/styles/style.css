@@ -411,7 +411,7 @@ margin: auto auto;
 }
 .where-slider #next {
     position: absolute;
-    right: -60px;
+    right: -45px;
     z-index: 50;
     width: 100px;
     top: 22%;
@@ -843,4 +843,28 @@ ujq2pkBuX!Q!eJT*/
 .where-title {
     margin-top: 91px;
 }
+}
+
+@media screen and (max-width: 1052px) and ( min-width: 992px ) {
+	.where-slider #prev {
+    position: absolute;
+    left: 0;
+    z-index: 50;
+    width: 100px;
+    top: 22%;
+}
+.where-slider #next {
+    position: absolute;
+    right: 0;
+    z-index: 50;
+    width: 100px;
+    top: 22%;
+}
+
+.create #prev {
+    left: 0;
+}
+.create #next {
+	right: 0
+}	
 }
