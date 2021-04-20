@@ -920,7 +920,10 @@ ujq2pkBuX!Q!eJT*/
     padding-top: 4px;
     min-height: 102px;
     min-width: unset;
-
+    text-align: right;
+    background-position: revert;
+    margin-right: -17px;
+    padding-right: 11px;
 }
 .sliderSec-title {
     font-size: 28px;
