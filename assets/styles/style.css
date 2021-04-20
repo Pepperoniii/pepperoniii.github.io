@@ -611,6 +611,23 @@ button.btn.btn-juliet.slick-arrow {
 .slick-arrow img{
 	width: 100%;
 }
+
+.sliderSec-img img{
+	position: absolute;
+    bottom: 0;
+	top:50%;
+    left: 50%;
+	transform:translate(-50%, -50%);
+	width: 100%;
+}
+.sliderSec-img {
+    height: 675px;
+    position: relative;
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1199px) {
 	.form{
     	background-size: contain;
@@ -884,18 +901,21 @@ ujq2pkBuX!Q!eJT*/
 }
 }
 @media screen and (max-width: 500px) {
+	.where-slider_item img {
+    width: 86%;
+}
 	.choose-title h2 {
-    width: 120%;
+    width: 100%;
 }
 .create-item_title:after {
-    width: 252px;
+    width: 190px;
 }
 .create-item_title {
     height: 167px;
 }
 .choose-title h2 {
 	background-size: cover;
-    font-size: 29px;
+    font-size: 28px;
     line-height: 41px;
     padding-top: 4px;
     min-height: 102px;
@@ -903,7 +923,39 @@ ujq2pkBuX!Q!eJT*/
 
 }
 .sliderSec-title {
+    font-size: 28px;
+}
+.item-title {
     font-size: 32px;
+}
+.item-desc {
+    font-size: 19px;
+    line-height: 22px;
+}
+.natural-desc {
+    font-size: 28px;
+    margin-top: 20px;
+    line-height: 41px;
+}
+.natural-image img{
+	height: 100px;	
+}
+.title {
+    font-size: 27px;
+}
+.create-item_title {
+    line-height: 40px;
+    font-size: 22px;
+}
+.create-title {
+    margin: 50px auto;
+}
+.sliderSec-img {
+    height: 445px;
+    width: 50%;
+}
+.us-desc {
+    font-size: 12px;
 }
 .ic:before {
     margin-left: 0px;
@@ -988,6 +1040,17 @@ ujq2pkBuX!Q!eJT*/
 .where-title {
     margin-top: 91px;
 }
+.create-item_title {
+    line-height: 40px;
+    padding-top: 34px;
+    font-size: 35px;
+}
+.endi .create-item_image img {
+    position: absolute;
+    left: -115px;
+    top: 135px;
+    width: 103%;
+}
 }
 
 @media screen and (max-width: 1052px) and ( min-width: 992px ) {
@@ -1031,24 +1094,7 @@ ujq2pkBuX!Q!eJT*/
 .silderSec #next {
     right: -32px;
 }
-}
-
-
-.sliderSec-img img{
-	position: absolute;
-    bottom: 0;
-	top:50%;
-    left: 50%;
-	transform:translate(-50%, -50%);
-	width: 100%;
-}
-.sliderSec-img {
-    height: 675px;
-    position: relative;
-    width: 65%;
-    display: block;
-    margin: 0 auto;
-}
+} 
 
 @media screen and (max-width: 575px) {
 
