@@ -911,7 +911,7 @@ ujq2pkBuX!Q!eJT*/
     width: 190px;
 }
 .create-item_title {
-    height: 167px;
+    height: 90px;
 }
 .choose-title h2 {
 	background-size: cover;
@@ -1034,7 +1034,12 @@ ujq2pkBuX!Q!eJT*/
 
 }
 @media screen and (max-width: 435px) {
-
+.item-container {
+    height: 655px;
+}
+.create-item_title {
+    height: 105px;
+}
 .form {
     background-image: url(../images/bg-forn-mob.png);
     background-size: cover;
@@ -1045,7 +1050,7 @@ ujq2pkBuX!Q!eJT*/
 }
 .create-item_title {
     line-height: 40px;
-    padding-top: 34px;
+    padding-top: 0;
     font-size: 35px;
 }
 .endi .create-item_image img {
@@ -1128,3 +1133,10 @@ ujq2pkBuX!Q!eJT*/
 img.minBot{
     top: 61%;
 }
+@media screen and (max-width: 369px) {
+	.endi .create-item_image img {
+    position: absolute;
+    left: -115px;
+    top: 124px;
+    width: 103%;
+}}
