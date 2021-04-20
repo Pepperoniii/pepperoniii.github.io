@@ -884,6 +884,9 @@ ujq2pkBuX!Q!eJT*/
 }
 }
 @media screen and (max-width: 500px) {
+	.choose-title h2 {
+    width: 120%;
+}
 .create-item_title:after {
     width: 252px;
 }
