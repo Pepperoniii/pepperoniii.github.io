@@ -146,6 +146,10 @@ div.header .navbar a{
 	text-align: center;
 	margin: 0 auto;
 	font-family: "Futura New Book"; 	
+    max-width: 350px;
+}
+.silderSec .slick-slide {
+    width: 350px;
 }
 .sliderSec-title{ 
 	text-transform: uppercase;
@@ -182,6 +186,7 @@ div.header .navbar a{
 }
 .item-desc{
 	font-size: 19px;	
+	line-height: 22px;
 }
 .slider{
 	margin-top: 80px;
@@ -191,16 +196,14 @@ div.header .navbar a{
 }
 #prev{
 	position: absolute;
-    left: -60px;
+    left: 0;
     z-index: 50;
-    width: 100px;
     top: 50%;
 }
 #next{
 	position: absolute;
-    right: -40px;
-    z-index: 50;
-    width: 100px;
+    right: 0;
+    z-index: 50; 
     top: 50%;
 }
 .natural{
@@ -215,6 +218,12 @@ div.header .navbar a{
 	text-transform: uppercase;
 	font-family: "CirceRounded-Regular3"; 
 	margin-top: 20px;
+	line-height: 41px;
+}
+.create{
+	background-image: url(../images/bg-create.png);
+	background-repeat: 	no-repeat;
+	background-position: center;	
 }
 .create-title{
 	color: #33cccc;
@@ -224,21 +233,32 @@ div.header .navbar a{
 .item-container{
 	height: 768px;
 	background-color: #9887d7;
-	width: 425px;
+	width: 375px;
 	color: white;
 	font-size: 19px;
 	font-family: "Futura New Book"; 
 	border-radius: 50px;
     margin-left: auto;
 	position: relative;
+	transition: 0.5s all;
+    margin-right: 70px;
 }
-
-
+.slick-slide{
+	width: 600px;
+}
+/*.slick-active .item-container{
+    margin-right: 70px;
+}
+.slick-current.slick-active .item-container{
+    margin-right: 0;
+}
+*/
 /* coctails	 */
 .endi .create-item_image img {
     position: absolute;
-    left: -209px;
-    top: -48px;
+    left: -124px;
+    top: 11px;
+    width: 91%;
 }
 
 .endi .item-container{
@@ -252,7 +272,8 @@ div.header .navbar a{
 }
 
 .cab .create-item_image img{
-	left: -162px
+left: -131px;
+    width: 73%;
 }
 .cab .item-container{
 	background-color: #fb728e;
@@ -266,6 +287,8 @@ div.header .navbar a{
 
 .mint .create-item_image img{
     left: -118px;
+    width: 55%;
+    top: -58px;
 }
 .mint .item-container{
 	background-color: #33dcd0;
@@ -278,8 +301,9 @@ div.header .navbar a{
 }
 
 .sunny .create-item_image img{
-    left: -201px;
-    top: -22px;
+    left: -120px;
+    top: 11px;
+    width: 89%;
 }
 .sunny .item-container{
 	background-color: #f7c509;
@@ -293,8 +317,9 @@ div.header .navbar a{
 
 .qiwi .create-item_image img {
     position: absolute;
-    left: -208px;
-    top: -5px;
+    left: -124px;;
+    top: 51px;
+    width: 91%;
 }
 .qiwi .item-container{
 	background-color: #e5876c;
@@ -319,13 +344,14 @@ div.header .navbar a{
 	display: block;
 	position: absolute;
 	background-repeat: no-repeat;
-    margin-left: 33px;
+    margin-left: 0;
 }
 .create-item_title{
 	color: white;
 	text-align: center;
 	line-height: 55px;
     padding-top: 60px;
+    text-transform: none;
 }
 .create-item_title:after{
 	content: "";
@@ -345,8 +371,8 @@ div.header .navbar a{
 }
 .create-item_composition{
 	float: right;
-    width: 240px;
-    margin: 20px 20px 20px 0;
+    width: 227px;
+    margin: 40px 20px 0 0;
     text-transform: uppercase;
     line-height: 20px;
 }
@@ -360,6 +386,10 @@ div.header .navbar a{
     padding: 45px;
     border-bottom-left-radius: 56px;	
     border-top-left-radius: 56px;	
+    padding-top: 23px;
+    line-height: 22px;
+    height: 214px;
+
 }
 section.us{
 	background-image: url(../images/bg-us.png);
@@ -384,9 +414,9 @@ section.us{
 	background-position: center center;
 }
 .videoholder img{
-margin: auto auto;
+    margin: auto auto;
     display: block;
-    padding: 100px 0;
+    width: 100%;
 }
 .there{
 	background-image: url(../images/bg-bottom.png);
@@ -405,16 +435,14 @@ margin: auto auto;
 .where-slider #prev {
     position: absolute;
     left: -60px;
-    z-index: 50;
-    width: 100px;
+    z-index: 50; 
     top: 22%;
 }
 .where-slider #next {
     position: absolute;
     right: -45px;
-    z-index: 50;
-    width: 100px;
-    top: 22%;
+    z-index: 50; 
+    top: 22%; 
 }
 .form{
 	background-image: url(../images/bg-form.png);
@@ -436,13 +464,13 @@ margin: auto auto;
 .form input{
 	width: 310px;
 	height: 45px;
-    border-radius: 25px;
+    border: none;
     padding-left: 20px;
 }
 .form textarea{
 	width: 310px;
 	height: 120px;
-    border-radius: 20px;
+    border: none;
     padding-left: 20px;
 }
 .form input:focus{
@@ -512,10 +540,30 @@ ul.social li{
     margin-right: 13px;
     margin-top: 23px;
 }
+ul.social li a{
+	display: inline-block;	
+	width: 45px;	
+}
+ul.social li a img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 5px;
+}
+ul.social li a img.facebook {
+	background-color: #5178d9;
+}
+ul.social li a img.vk {
+	background-color: #41caf6;
+}
+ul.social li a img.inst {
+	background-color: #c78ffe;
+}
 .footer{
     width: 915px;
     margin: 0 auto;
     margin-top: 189px;
+    padding-bottom: 30px;
 }
 .footer img{
 	float: left;
@@ -537,7 +585,12 @@ ul.social li{
 	margin-bottom: 5px;
 	text-transform: uppercase;	
 }
-
+button.btn.btn-juliet.slick-arrow {
+	width: 67px;
+}
+.slick-arrow img{
+	width: 100%;
+}
 @media screen and (max-width: 1199px) {
 	.form{
     	background-size: contain;
@@ -572,6 +625,7 @@ ul.social li{
 }
 	#navbarNav{
 		justify-content: unset;
+		padding-bottom: 8px;
 	}
 	a.navbar-brand{
 		display: none;
@@ -631,7 +685,7 @@ ul.social li{
 	    margin-top: 30px;
 }
 	.footer ul {
-	    padding-left: 35px;
+	    padding-left: 0;
 	    float: none;
 }	
 	.form-inner {
@@ -652,18 +706,16 @@ ul.social li{
 	}
 .create #prev {
     position: absolute;
-    right: 50%;
-    z-index: 50;
-    width: 100px;
+    right: 53%;   
+    z-index: 50; 
     top: 100%;
     left: unset;
 }
 .create #next {
     position: absolute;
-    z-index: 50;
-    width: 100px;
-    top: 100%;
-    left: 50%;
+    z-index: 50; 
+    top: 100%; 
+    left: 53%;
     right: unset;
 }	
 .us-title {
@@ -725,15 +777,13 @@ ul.social li{
 .where-slider #prev {
     position: absolute;
     right: 50%;
-    z-index: 50;
-    width: 100px;
+    z-index: 50; 
     top: 100%;
     left: unset;
 }
 .where-slider #next {
     position: absolute;
-    z-index: 50;
-    width: 100px;
+    z-index: 50; 
     top: 100%;
     left: 50%;
     right: unset;
@@ -764,11 +814,19 @@ ul.social li{
     background-size: cover;
 }
 
+.natural-item {
+    margin: 30px auto;
+}
+
 }
 /*
 ujq2pkBuX!Q!eJT*/
 @media screen and (max-width: 991px) {
 
+.create{
+	background-image: url(../images/bg-create-mob.png);
+    background-size: cover;
+}
 .choose-title h2{
 	margin-top: 80px;
 }
@@ -791,6 +849,9 @@ ujq2pkBuX!Q!eJT*/
 }
 .footer img{
     height: 120px;
+    float: none;
+    display: block;
+    margin: 0 auto 25px auto;
 }
 }
 @media screen and (max-width: 500px) {
@@ -808,8 +869,8 @@ ujq2pkBuX!Q!eJT*/
     font-size: 32px;
 }
 .ic:before {
-    margin-left: -70px;
-    height: 57%;
+    margin-left: 0px;
+    height: 38%;
 }
 .create-item_title {
     color: white;
@@ -845,23 +906,31 @@ ujq2pkBuX!Q!eJT*/
     display: block;
 }
 .cab .create-item_image img {
-    left: -203px;
+    left: -43px;
+    top: 182px;
+    width: 64%;
 }
-.mint .create-item_image img {
-    left: -162px;
+.mint .create-item_image img {    
+    left: -71px;
+    top: 80px;
+    width: 57%;
 }
 .sunny .create-item_image img {
-    top: 0;
+    left: -62px;
+    top: 198px;
+
 }
 .qiwi .create-item_image img {
     position: absolute;
-    left: -263px;
-    top: -35px;
+    left: -91px;
+    top: 118px;
+    width: 	100%;
 }
 .endi .create-item_image img {
     position: absolute;
-    left: -233px;
-    top: -36px;
+    left: -91px;
+    top: 118px;
+    width: 	100%;
 }
 .endi .create-item_desc {
     background-color: #adc358;
@@ -885,15 +954,13 @@ ujq2pkBuX!Q!eJT*/
 	.where-slider #prev {
     position: absolute;
     left: 0;
-    z-index: 50;
-    width: 100px;
+    z-index: 50; 
     top: 22%;
 }
 .where-slider #next {
     position: absolute;
     right: 0;
-    z-index: 50;
-    width: 100px;
+    z-index: 50; 
     top: 22%;
 }
 
@@ -926,3 +993,19 @@ ujq2pkBuX!Q!eJT*/
 }
 }
 
+
+.sliderSec-img img{
+	position: absolute;
+    bottom: 0;
+	top:50%;
+    left: 50%;
+	transform:translate(-50%, -50%);
+	width: 100%;
+}
+.sliderSec-img {
+    height: 675px;
+    position: relative;
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
