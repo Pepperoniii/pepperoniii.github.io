@@ -352,6 +352,8 @@ left: -131px;
 	line-height: 55px;
     padding-top: 60px;
     text-transform: none;
+    margin: 0 30px;
+
 }
 .create-item_title:after{
 	content: "";
@@ -360,6 +362,7 @@ left: -131px;
 	display: block;
 	background-color: white;
 	margin: 0 auto;
+    margin-top: 20px;
 }
 .create-item_image{
 	position: relative;
@@ -388,7 +391,7 @@ left: -131px;
     border-top-left-radius: 56px;	
     padding-top: 23px;
     line-height: 22px;
-    height: 214px;
+    height: unset;
 
 }
 section.us{
@@ -464,14 +467,18 @@ section.us{
 .form input{
 	width: 310px;
 	height: 45px;
-    border: none;
+    background-color: #f4f6fc;
+    border-radius: 50px;
     padding-left: 20px;
+    border: 3px solid #f4f6fc;
 }
 .form textarea{
 	width: 310px;
 	height: 120px;
-    border: none;
+    background-color: #f4f6fc;
+    border-radius: 23px;
     padding-left: 20px;
+    border: 3px solid #f4f6fc;
 }
 .form input:focus{
 	outline: none;
@@ -667,7 +674,8 @@ button.btn.btn-juliet.slick-arrow {
 	.form-title {
 		text-align: center;
 	    font-size: 40px;
-    	margin-top: 38px;
+    	margin: 85px 0 20px 0; 
+    padding: 0px 20px;
 }
 
 	.form input {
@@ -750,7 +758,7 @@ button.btn.btn-juliet.slick-arrow {
 	}
 
 	.title{
-		font-size: 46px;
+    	font-size: 39px;
 	}
 .silderSec #prev {
 	left: 0;
@@ -876,8 +884,8 @@ ujq2pkBuX!Q!eJT*/
     color: white;
     text-align: center;
     line-height: 55px;
-    padding-top: 60px;
-    font-size: 22px;
+    padding-top: 34px;
+    font-size: 44px;
 }
 .item-container {
     width: 310px;
@@ -906,31 +914,32 @@ ujq2pkBuX!Q!eJT*/
     display: block;
 }
 .cab .create-item_image img {
-    left: -43px;
-    top: 182px;
-    width: 64%;
+    left: -33vw;
+    top: -1px;
+    width: 86%;
 }
 .mint .create-item_image img {    
-    left: -71px;
-    top: 80px;
-    width: 57%;
+    left: -29vw;
+    top: -78px;
+    width: 70%;
 }
 .sunny .create-item_image img {
-    left: -62px;
-    top: 198px;
+    left: -40vw;
+    top: 30px;
+    width: 122%;
 
 }
 .qiwi .create-item_image img {
     position: absolute;
-    left: -91px;
-    top: 118px;
-    width: 	100%;
+    left: -120px;
+    top: 142px;
+    width: 100%;
 }
 .endi .create-item_image img {
     position: absolute;
-    left: -91px;
-    top: 118px;
-    width: 	100%;
+    left: -105px;
+    top: 63px;
+    width: 103%;
 }
 .endi .create-item_desc {
     background-color: #adc358;
@@ -944,6 +953,7 @@ ujq2pkBuX!Q!eJT*/
 .form {
     background-image: url(../images/bg-forn-mob.png);
     background-size: cover;
+    background-position: left;
 }
 .where-title {
     margin-top: 91px;
@@ -1018,4 +1028,8 @@ ujq2pkBuX!Q!eJT*/
     width: unset;
     padding: 60px 0;
 }
+}
+
+img.minBot{
+    top: 61%;
 }
