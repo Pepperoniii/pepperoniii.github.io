@@ -951,7 +951,7 @@ ujq2pkBuX!Q!eJT*/
     margin: 50px auto;
 }
 .sliderSec-img {
-    height: 445px;
+    height: 512px;
     width: 50%;
 }
 .us-desc {
@@ -1048,8 +1048,24 @@ ujq2pkBuX!Q!eJT*/
 .endi .create-item_image img {
     position: absolute;
     left: -115px;
-    top: 135px;
+   	top: 83px;
     width: 103%;
+}
+.qiwi .create-item_image img {
+    position: absolute;
+    left: -115px;
+   	top: 83px;
+    width: 103%;
+}
+.mint .create-item_image img {
+    left: -32vw;
+    top: -78px;
+    width: 70%;
+}
+.sunny .create-item_image img {
+    left: -44vw;
+    top: 44px;
+    width: 122%;
 }
 }
 
