@@ -353,6 +353,8 @@ left: -131px;
     padding-top: 60px;
     text-transform: none;
     margin: 0 30px;
+    position: relative;
+    height: 193px;
 
 }
 .create-item_title:after{
@@ -363,6 +365,8 @@ left: -131px;
 	background-color: white;
 	margin: 0 auto;
     margin-top: 20px;
+    position: absolute;
+    bottom: 0;
 }
 .create-item_image{
 	position: relative;
@@ -735,7 +739,12 @@ button.btn.btn-juliet.slick-arrow {
 
 
 @media screen and (max-width: 767px) {
-
+.endi .create-item_image img {
+    position: absolute;
+    left: -124px;
+    top: 25px;
+    width: 85%;
+}
 	div.header .navbar a {
     	margin: 0px 2vw;
 	}
@@ -762,6 +771,9 @@ button.btn.btn-juliet.slick-arrow {
 	.title{
     	font-size: 39px;
 	}
+	.create-item_title {
+    	font-size: 60px;
+}
 .silderSec #prev {
 	left: 0;
 }
@@ -865,7 +877,12 @@ ujq2pkBuX!Q!eJT*/
 }
 }
 @media screen and (max-width: 500px) {
-
+.create-item_title:after {
+    width: 252px;
+}
+.create-item_title {
+    height: 167px;
+}
 .choose-title h2 {
 	background-size: cover;
     font-size: 29px;
@@ -890,8 +907,8 @@ ujq2pkBuX!Q!eJT*/
     font-size: 44px;
 }
 .item-container {
-    width: 310px;
-    margin-right: 0;
+    width: 355px;
+    margin-right: 40px;
     font-size: 14px;
 }
 .create-item_composition {
@@ -900,7 +917,7 @@ ujq2pkBuX!Q!eJT*/
 }
 .create-item_desc {
     float: right;
-    width: 189px;
+    width: 205px;
     padding: 29px;
 	padding-right: 17px;
 }
