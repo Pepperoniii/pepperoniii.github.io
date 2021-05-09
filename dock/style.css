@@ -574,6 +574,9 @@ ul.slick-dots{
 }
 
 @media screen and (max-width: 1200px) {
+	.rewive-rate{
+		font-size: 18px;	
+	}
 	.button_whatsApp{
 		font-size: 20px;
 	}
@@ -669,4 +672,49 @@ ul.slick-dots{
 	.list-image img {
     	width: 99px;
 }
+}
+@media screen and (max-width: 992px) {
+	.rewive-item_image img{
+		width: 	100%;
+	}
+	.diag img {
+	    top: 152px;
+	    width: 50%;
+}
+	.store-title{
+    	margin-top: 183px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.header-title{	
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.diag img {
+	    top: 222px;
+	}	
+	.header-list{
+		color: #384B14;		
+	}
+	.header-list_title{
+		font-size: 20px;
+	}
+	.header-list ul {
+		font-size: 18px;
+}
+	.diag-p{
+		font-size: 24px;
+	}
+	.diag-button{
+		font-size: 25px;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	.header-buttons{
+		
+	}
 }

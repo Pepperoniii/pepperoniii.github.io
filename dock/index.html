@@ -10,7 +10,7 @@
    <link rel="stylesheet" href="slick/slick.css">
 
     <link rel="stylesheet" href="style.css">
-    <title>Привет мир!</title>
+    <title>Восточный целитель</title>
   </head>
   <body>
 
@@ -27,7 +27,7 @@
   			<div class="col-3">
   				<img src="images/logo.jpg" alt="">
   			</div>
-  			<div class="col-4 col-xl-3 col-lg-4 offset-4 offset-xl-6 offset-lg-5 d-flex align-items-center">
+  			<div class="col-5 col-sm-5 col-xl-3 col-lg-4 offset-3 offset-sm-4 offset-xl-6 offset-lg-5 d-flex align-items-center">
   				<a href="#" class="button_whatsApp">Написать в Whatsapp</a>
   			</div>
   		</div>
@@ -63,10 +63,10 @@
 <div class="diag">
 	<div class="container">
 		<div class="row">
-			<div class="col-4 col-4 col-xl-4 col-lg-3 ">
+			<div class="col-4 col-xl-4 col-lg-3 ">
 				<img src="images/bg_diag.png" alt="">
 			</div>
-			<div class="col-7 col-7 col-xl-7 col-lg-9">
+			<div class="col-12 col-xl-7 col-lg-9">
 				<div class="diag-block">
 					<div class="diag-p">Мы уже на протяжении <span class="y">7 лет</span> привозим товары для вашего здоровья, основанные на <span class="y">древних народных рецептах Китая</span>. Отбираем только те товары, которые действительно вам <span class="y">помогают и не содержат химических и гормональных элементов</span> в своем составе!</div>
 					<a href="" class="diag-button">Посмотреть все товары</a>
@@ -96,7 +96,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-9 col-xl-12 col-lg-9 sliderStore">
+			<div class="col-9 col-sm-12 col-xl-12 col-lg-9 sliderStore">
 				<div class="store-item">
 					<div class="store-item_image"><img src="images/store-item-1.jpg" alt=""></div>
 					<div class="store-item_desc">Крем для тела FULEWANG при псориазе дерматите экземе мазь для лечения</div>
@@ -220,7 +220,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-10 sliderRewive">
+			<div class="col-10 col-sm-12 sliderRewive">
 				<div class="rewive-item">
 					<div class="rewive-item_title">Крем для тела FULEWANG при псориазе дерматите экземе мазь для лечения</div>					
 					<div class="rewive-item_image"><img src="images/store-item-1.jpg" alt=""></div>
@@ -415,7 +415,7 @@
 		      breakpoint: 600,
 		      settings: {
 		        slidesToShow: 2,
-		        slidesToScroll: 2
+		        slidesToScroll: 1
 		      }
 		    },
 		    {
@@ -440,14 +440,52 @@
 		  slidesToShow: 3,
 		  slidesToScroll: 1,
   		prevArrow: '<button id="prev" type="button" class="btn btn-juliet l"><img src="images/arrow-goods.png"></button>',
-  		nextArrow: '<button id="next" type="button" class="btn btn-juliet r"><img src="images/arrow-goods.png"></button>'
+  		nextArrow: '<button id="next" type="button" class="btn btn-juliet r"><img src="images/arrow-goods.png"></button>',
+		  responsive: [
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+		    // You can unslick at a given breakpoint now by adding:
+		    // settings: "unslick"
+		    // instead of a settings object
+		  ]
       });
 
       $('.sliderRewive').slick({
 		  slidesToShow: 3,
 		  slidesToScroll: 1,
   		prevArrow: '<button id="prev" type="button" class="btn btn-juliet l"><img src="images/arrow-rewiev.png"></button>',
-  		nextArrow: '<button id="next" type="button" class="btn btn-juliet r"><img src="images/arrow-rewiev.png"></button>'
+  		nextArrow: '<button id="next" type="button" class="btn btn-juliet r"><img src="images/arrow-rewiev.png"></button>',
+		  responsive: [
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+		    // You can unslick at a given breakpoint now by adding:
+		    // settings: "unslick"
+		    // instead of a settings object
+		  ]
       });
 
       $('.sliderSerif').slick({
