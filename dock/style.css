@@ -572,7 +572,11 @@ ul.slick-dots{
 .header-buttons{
 	display: flex;
 }
-
+a.mobWhatsapp{
+	border: none;
+	float: right;
+    background: none;
+}
 @media screen and (max-width: 1200px) {
 	.rewive-rate{
 		font-size: 18px;	
@@ -612,7 +616,12 @@ ul.slick-dots{
 	    width: 50%;
 }
 	.diag-block:after{
-		right: -71px;	
+    	right: 0px;
+    	width: 252px;
+    	bottom: -22px;
+    	height: 136px;
+
+
 	}
 	.store-title{
 		font-size: 22px;
@@ -694,6 +703,8 @@ ul.slick-dots{
 	}
 	.diag img {
 	    top: 222px;
+	    position: unset;
+	    width: 100%;
 	}	
 	.header-list{
 		color: #384B14;		
@@ -710,11 +721,47 @@ ul.slick-dots{
 	.diag-button{
 		font-size: 25px;
 	}
+	.button_whatsApp{
+		
+	}
+	.store-market img{
+		width: 100%;
+	}
+	.footer-link img{
+		width: 100%;
+	}
+	.rewive:after {
+	    height: 156px;
+	    width: 204px;
+	    top: -49px;
+	    background-size: cover;
+	}
+	.diag-block:after{
+		right: -116px;
+    	width: 252px;
+    	bottom: -22px;
+    	height: 136px;
+
+
+	}
 }
 
 
 @media screen and (max-width: 576px) {
-	.header-buttons{
-		
+	.diag-block:after {
+    left: 0;
+    transform: scale(-1, 1);
+    bottom: -100px;
+    left: -88px;
+}
+	.diag img {
+	    position: unset;
+	    width: 100%;
 	}
+	.header-button {
+	    font-size: 10px;
+	    width: 195px;
+	    margin: 21px 4px;
+    	padding: 7px 10px;
+}
 }
