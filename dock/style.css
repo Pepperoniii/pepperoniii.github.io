@@ -576,6 +576,7 @@ a.mobWhatsapp{
 	border: none;
 	float: right;
     background: none;
+    margin-left: auto;
 }
 @media screen and (max-width: 1200px) {
 	.rewive-rate{
@@ -764,4 +765,49 @@ a.mobWhatsapp{
 	    margin: 21px 4px;
     	padding: 7px 10px;
 }
+	.store-title {
+	    margin-top: 230px;
+	}
+	.store-container:after {
+	    width: 221px;
+	    height: 118px;
+	    right: 0;
+	    top: 0;
+}
+	.store-container:before{		
+	    width: 122px;
+	    height: 146px;
+	    bottom: -85px;
+	}
+	.goods:after{
+		height: 251px;
+    	width: 148px;
+    	background-size: cover;
+	}
+	.rewive:after {
+    	height: 120px;
+    	width: 151px;
+	}
+	.rewive:before{
+		width: 176px;
+    	height: 256px;
+    	top: -105px;
+	}
+	.rewive-rate:before{
+		width: 181px;
+    	height: 160px;
+    	bottom: -41px;
+	}
+	.list-desc{
+    	margin: 35px 0px 18px 11px;
+	}
+	.rewive-title {
+	    margin: 88px 0 53px 0;
+}
+	.logo{
+		width: 100%;
+	}
+	.store {
+    	margin-top: 164px
+	}
 }
