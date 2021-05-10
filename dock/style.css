@@ -16,8 +16,17 @@ body{
     position: relative;
     background-size: 50%, 100%;
 }
+.headerr{
+
+}
 header{
 	padding-top: 40px;
+}
+.header_bgimage img{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 709px;
 }
 .y{
 	color: #f6c543;
@@ -92,6 +101,7 @@ header{
 	font-size: 27px;
     margin-top: 25px;
     margin-bottom: 60px;
+  text-decoration: line-through;
 }
 .header-image{
 	position: absolute;
@@ -110,11 +120,74 @@ header{
     left: 0;
     top: 101px;
     z-index: 2;
+
+}
+.listt{
+    position: absolute;
+  animation-duration: 6s;
+  animation-name: listt11;
+}
+
+@keyframes listt11 {
+  from {
+    top: -1501px;
+    left: 2000px;
+  }
+
+  to {
+    top: 101px;
+    left: 0;
+  }
+}
+
+
+@keyframes zasch {
+  from {
+  	text-decoration: none;
+  }
+
+  to {
+  	text-decoration: line-through;
+
+  }
+}
+@keyframes listt12 {
+  from {
+    top: -1001px;
+    right: -870px;
+  }
+
+  to {
+    top: 0px;
+    right: 87px;
+  }
+}
+
+@keyframes listt {
+  0% {
+	transform: translateX(0px) translateY(0px);
+  }
+
+  50% {
+	transform: translateX(-50px) translateY(100px);
+  }
+
+  100% {
+	transform: translateX(0px) translateY(0px);
+  }
+}
+
+
+.diag img::before{
+	content: ' ';
+	background-image: url(images/list-1.png);
+	background-size: contain;
+    z-index: 3;
 }
 .diag-block{
 	background: linear-gradient(180deg, #81A245 0%, #A24572 0%, #81A245 0.01%, #A5BE58 100%);
 	box-shadow: 10px 10px 4px rgba(129, 162, 69, 0.44);
-	border-radius: 10px;	
+	border-radius: 10px;
 	position: relative;
 }
 .diag-block:after{
@@ -153,7 +226,7 @@ header{
 
 .store{
 	background: url(images/bg_store.png);
-	border-radius: 30px;	
+	border-radius: 30px;
     margin-top: 250px;
     background-size: cover;
     position: relative;
@@ -190,7 +263,7 @@ header{
     margin-bottom: 64px;
 }
 .store .col{
-	display: flex;	
+	display: flex;
 	align-items: center;
 }
 .store-title{
@@ -221,14 +294,14 @@ header{
 	color: #384B14;
 	font-size: 25px;
 	font-weight: bold;
-    font-family: Roboto-Medium; 
+    font-family: Roboto-Medium;
     margin-top: 19px;
 }
 .store-item_sale{
 	color: #384B14;
 	font-size: 25px;
 	font-weight: bold;
-    font-family: Roboto-Medium; 
+    font-family: Roboto-Medium;
     margin-top: -3px;
 }
 .store-item_button{
@@ -252,7 +325,7 @@ header{
 
 .title{
 	font-weight: bold;
-    font-family: Roboto-Medium; 
+    font-family: Roboto-Medium;
 	font-size: 50px;
 	/* identical to box height */
 	text-align: center;
@@ -304,7 +377,7 @@ header{
 .goods-item_button a{
 	background: linear-gradient(0deg, #F6C543, #F6C543), #F6C543;
 	border-radius: 10px;
-	text-align: center;	
+	text-align: center;
 	color: #fff;
     padding: 7px 31px;
 	font-size: 30px;
@@ -335,7 +408,7 @@ header{
     top: -144px;
     left: 0;
     z-index: 2;
-	
+
 }
 .rewive-rate:before{
 	content: " ";
@@ -367,7 +440,7 @@ header{
 	margin: 0 13px;
 	background-color: #fff;
 }
-.rewive-item_title{	
+.rewive-item_title{
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
@@ -396,7 +469,7 @@ header{
 	font-size: 20px;
 	line-height: 23px;
 	text-align: center;
-	text-decoration: none; 
+	text-decoration: none;
 	width: 100%;
 	text-align: center;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -419,7 +492,7 @@ header{
 .list-image img{
 	width: 127px;
 }
-.list-desc{	
+.list-desc{
 	font-style: normal;
 	font-weight: bold;
 	font-size: 27px;
@@ -434,14 +507,14 @@ header{
 
 }
 .serif-item img{
-	width: 80%;	
+	width: 80%;
     margin: 0 auto;
 }
 .serif-item.slick-center img{
-	width: 100%;	
+	width: 100%;
 }
 .serif .slick-track{
-	display: flex;	
+	display: flex;
 	align-items: center;
 }
 .sliderSerif{
@@ -544,7 +617,7 @@ ul.slick-dots{
 	font-weight: bold;
 	font-size: 25px;
 	line-height: 29px;
-	text-align: center;	
+	text-align: center;
 	margin: 70px auto 0px auto;
 }
 .popup-whatsapp_qr {
@@ -578,21 +651,162 @@ a.mobWhatsapp{
     background: none;
     margin-left: auto;
 }
+
+.content{
+	margin-top: 60px;
+}
+.content_desc-title{
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	color: #384B14;
+
+}
+.content_item-photo img{
+	box-shadow: 0px 0px 40px 13px rgb(129 162 69 / 50%);
+	margin: 0px 10px;
+}
+
+
+.content_desc-desc{
+	font-size: 15px;
+	line-height: 18px;
+	color: #384B14;
+	margin-top: 13px;
+}
+.content_item{
+	display: flex;
+}
+.content_back a:before{
+	content: ' ';
+	background-image: url(images/icon-back.png);
+	display: block;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	width: 9px;
+ 	height: 9px;
+ 	position: absolute;
+    left: 7px;
+    top: 5px;
+}
+.content_back a {
+	position: relative;
+    background: #F6C543;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 25px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    padding: 3px;
+}
+.content_item-more{
+	display: flex;
+	flex-direction: column;
+}
+.content_item-rigth{
+	width: 180px;
+}
+.content_item-more img{
+	width: 40px;
+    z-index: 0;
+    margin: 9px 0;
+}
+.rigth_title{
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #384B14;
+}
+.rigth_button .rewive-item_button{
+	width: 125px;
+	height: 30px;
+	padding: 5px 17px;
+	margin: 7px auto;
+}
+.rigth_button .rewive-item_button a{
+
+	font-weight: bold;
+	font-size: 8px;
+	line-height: 9px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rigth_price{
+
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: #F6C543;
+    margin: 80px auto 50px auto;
+}
+.charts{
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+    padding: 7px 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.charts_title{
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	color: #384B14;
+}
+
+.charts_items{
+	display: flex;
+	margin-top: 30px;
+}
+.charts_items a{
+	text-decoration: none;
+}
+.charts_item-image{
+	width: 80px;
+	height: 135px;
+    margin: 0 auto;
+}
+
+.charts_item-image img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.charts_item-title{
+	font-size: 8px;
+	line-height: 9px;
+	text-align: center;
+	color: #384B14;
+	margin-top: 10px;
+}
+.charts_price{
+
+	font-weight: bold;
+	font-size: 8px;
+	line-height: 9px;
+	text-align: center;
+
+	color: #384B14;
+}
 @media screen and (max-width: 1200px) {
 	.rewive-rate{
-		font-size: 18px;	
+		font-size: 18px;
 	}
 	.button_whatsApp{
 		font-size: 20px;
 	}
 	.header-title{
 		font-size: 24px;
-		line-height: 60px;		
+		line-height: 60px;
 		font-weight: bold;
 	}
 	.header-list_title{
 		font-size: 22px;
-		line-height: 26px;	
+		line-height: 26px;
 	}
 	.header-list ul {
 		font-size: 20px;
@@ -646,7 +860,7 @@ a.mobWhatsapp{
 	}
 	.store-item_price {
 		font-size: 18px;
-}	
+}
 	.store-item_sale{
 		font-size: 18px;
 	}
@@ -669,7 +883,7 @@ a.mobWhatsapp{
 
 	.rewive-item_title{
 		font-size: 14px;
-		line-height: 16px;	
+		line-height: 16px;
 	}
 	.rewive-item_button a{
 		font-size: 11px;
@@ -678,7 +892,7 @@ a.mobWhatsapp{
 	.list-desc {
 		font-size: 16px;
 		line-height: 19px;
-}	
+}
 	.list-image img {
     	width: 99px;
 }
@@ -698,7 +912,7 @@ a.mobWhatsapp{
 
 
 @media screen and (max-width: 768px) {
-	.header-title{	
+	.header-title{
 		font-size: 18px;
 		line-height: 30px;
 	}
@@ -706,7 +920,18 @@ a.mobWhatsapp{
 	    top: 222px;
 	    position: unset;
 	    width: 100%;
-	}	
+	}
+	.diag img.listt{
+
+    position: absolute;
+    top: 0;
+    width: 63vw;
+    right: 87px;
+    left: unset;
+  animation-name: listt12;
+
+
+	}
 	.diag-p{
 		font-size: 24px;
 	}
@@ -714,7 +939,7 @@ a.mobWhatsapp{
 		font-size: 25px;
 	}
 	.button_whatsApp{
-		
+
 	}
 	.store-market img{
 		width: 100%;
@@ -750,6 +975,9 @@ a.mobWhatsapp{
 	    position: unset;
 	    width: 100%;
 	}
+	.diag img.listt {
+    position: absolute;
+}
 	.header-button {
 	    font-size: 10px;
 	    width: 195px;
@@ -765,7 +993,7 @@ a.mobWhatsapp{
 	    right: 0;
 	    top: 0;
 }
-	.store-container:before{		
+	.store-container:before{
 	    width: 122px;
 	    height: 146px;
 	    bottom: -85px;
@@ -806,7 +1034,7 @@ a.mobWhatsapp{
     	padding: 20px 6px;
 }
 	.header-list{
-		color: #384B14;		
+		color: #384B14;
 	}
 	.header-list_title{
 		font-size: 20px;
