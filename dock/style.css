@@ -707,15 +707,6 @@ a.mobWhatsapp{
 	    position: unset;
 	    width: 100%;
 	}	
-	.header-list{
-		color: #384B14;		
-	}
-	.header-list_title{
-		font-size: 20px;
-	}
-	.header-list ul {
-		font-size: 18px;
-}
 	.diag-p{
 		font-size: 24px;
 	}
@@ -810,4 +801,17 @@ a.mobWhatsapp{
 	.store {
     	margin-top: 164px
 	}
+	.diag-button {
+    	font-size: 22px;
+    	padding: 20px 6px;
+}
+	.header-list{
+		color: #384B14;		
+	}
+	.header-list_title{
+		font-size: 20px;
+	}
+	.header-list ul {
+		font-size: 18px;
+}
 }
