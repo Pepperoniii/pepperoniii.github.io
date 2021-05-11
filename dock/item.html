@@ -21,6 +21,9 @@
   			<div class="col-6 col-sm-3">
   				<img src="images/logo.jpg" alt="" class="logo">
   			</div>
+			<div class="col-2 d-block d-xl-none content_back">
+				<a href="#">назад</a>
+			</div>
   			<div class="col-5 col-sm-5 col-xl-3 col-lg-4 offset-3 offset-sm-4 offset-xl-6 offset-lg-5 d-flex align-items-center d-none d-md-block">
   				<a href="#" class="button_whatsApp">Написать в Whatsapp</a>
   			</div>
@@ -34,10 +37,10 @@
 <div class="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-2 content_back">
+			<div class="col-xl-2 d-none d-xl-block content_back">
 				<a href="#">назад</a>
 			</div>
-			<div class="col-4 content_desc">
+			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 content_desc">
 				<div class="content_desc-title">Эффективное средство от псориаза</div>
 				<div class="content_desc-desc">
 					<p>Псориаз поражает все больше людей. Суть псориаза – появление розовых бляшек на коже с чешуйками белого цвета, они растут и зудят. Эстетически дерматит из-за псориаза, мешает полноценной жизни</p>
@@ -48,7 +51,7 @@
 					Средство от псориаза используется для борьбы с зудом на лице и коже головы, для рук, ног и туловища. Растительные компоненты безопасны для потрескавшейся кожи</p>
 				</div>
 			</div>
-			<div class="col-5 offset-1 content_item">
+			<div class="col-xl-5 offset-xl-1 col-lg-6 col-md-12 col-sm-12 offset-lg-0 offset-md-0 content_item">
 				<div class="content_item-more">
 					<img src="images/product-item.png" alt="">
 					<img src="images/product-item.png" alt="">
@@ -81,7 +84,7 @@
 			<div class="col-2">
 				<div class="charts_title">Хиты продаж</div>
 			</div>
-			<div class="col-10">
+			<div class="col-10 slidercharts">
 				<div class="charts_items">
 					<a href="#">
 						<div class="charts_item">
@@ -190,5 +193,45 @@
 
 	<script src="js/jquery-3.6.0.min.js"></script>
     <script src="slick/slick.min.js"></script>
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.charts_items').slick({
+		slidesToShow: 9,
+		slidesToScroll: 1,
+		arrows: false,
+		  responsive: [
+		    {
+		      breakpoint: 1201,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+		    // You can unslick at a given breakpoint now by adding:
+		    // settings: "unslick"
+		    // instead of a settings object
+		  ]
+
+      });
+
+    });
+  </script>
   </body>
 </html>

@@ -553,7 +553,9 @@ footer{
     left: -70px;
 }
 .rewive .btn.btn-juliet.slick-arrow.r{
-    right: -70px;
+    
+    right: 0;
+    width: 1px;
 }
 .r img{
 	transform: rotate(180deg);
@@ -954,13 +956,11 @@ a.mobWhatsapp{
 	    background-size: cover;
 	}
 	.diag-block:after{
-		right: -116px;
-    	width: 252px;
-    	bottom: -22px;
-    	height: 136px;
-
-
-	}
+	    right: -65px;
+	    width: 252px;
+	    bottom: -98px;
+	    height: 136px;
+}
 }
 
 
