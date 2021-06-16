@@ -1,14 +1,22 @@
-   * {
+   @font-face {
+    font-family: Myriad; /* Имя шрифта */
+    src: url(Myriad.otf); /* Путь к файлу со шрифтом */
+   }
+
+
+  * {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-    font-family: -webkit-pictograph;
+      font-family: Myriad; 
+  }
+
+    body{
+      background-color: black;
     }
-body{
-  background-color: black;
-}
+
     .container{
 	    width: 80%;
 	    margin: 0 auto;
@@ -365,11 +373,24 @@ body{
 @keyframes text {
   from {
     opacity: 0;
+
+
   }
   to {
     opacity: 1;
   }
 }
+@keyframes video {
+  from {
+    opacity: 1;
+
+
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
 
   .blockMob{
     position: relative;
@@ -379,11 +400,11 @@ body{
     font-weight: bold;
     display: none;
     margin-top: 81vh;
-      animation-duration: 1s;
-      animation-name: text;
-      animation-delay: 5.5s;
-      animation-fill-mode: forwards;
-      opacity: 0;
+    animation-duration: 1s;
+    animation-name: text;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
   }
   .blockMob ul li{
 
@@ -395,8 +416,12 @@ body{
 
 @media screen and (max-width: 900px)  {
   .video{
-    position: absolute;
-  }
+    animation-duration: 2s;
+    animation-name: video;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+
+}
   .leftBlock{
     display: none;
   }
