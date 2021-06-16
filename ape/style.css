@@ -1,0 +1,370 @@
+   * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    font-family: -webkit-pictograph;
+    }
+
+    .container{
+	    width: 80%;
+	    margin: 0 auto;
+    }
+
+    .video {
+      -o-object-fit: cover;
+      object-fit: cover;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    .canvas {
+      -o-object-fit: cover;
+      object-fit: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+ 
+ 	.leftBlock{
+ 		color: #9cffff;
+    	font-size: 1.6em;
+    	font-weight: bold;
+    	position: relative;
+    	z-index: 1;
+	    width: 35%;
+	    margin: auto;
+	    margin-left: 0;
+	    margin-top: 10vh;
+	    float: left;
+ 	}
+ 	.rightBlock{
+ 		color: #9cffff;
+    	font-size: 1.6em;
+    	font-weight: bold;
+    	position: relative;
+    	z-index: 1;
+	    width: 35%;
+	    margin: auto;
+	    margin-left: 0;
+	    margin-top: 10vh;
+    	float: right;
+      text-align: right;
+ 	}
+ 	.leftBlock span{
+	    width: 254px;
+	    display: block; 		
+ 	}
+
+ 	.leftBlockOne{
+ 		position: relative;
+  		animation-duration: 1s;
+  		animation-name: text;
+  		animation-delay: 5.5s;
+  		animation-fill-mode: forwards;
+  		opacity: 0;
+ 	}
+
+
+	.leftBlockOne::after {
+		content: '';
+		display: block;
+		position: absolute;
+		height: 6px;
+    	right: -45px;
+    	bottom: -50px;
+		background-color: #9cffff;
+
+		transform: rotate(60deg);
+		transform-origin: 100% 100%;
+
+		width: 0;
+
+  		animation-duration: 1s;
+  		animation-name: leftBlockOneAf;
+  		animation-delay: 5s;
+ 		animation-fill-mode: forwards;	
+  		opacity: 1;
+    	border-radius: 43px;	
+
+	}
+	.leftBlockOne::before {
+		content: '';
+		display: block;
+		position: absolute;
+		height: 6px;
+		left: 100%;
+		bottom: 50%;
+		right: 0;
+		background-color: #9cffff;
+		transition: .3s;
+		-webkit-transition: .3s;
+		left: 100%;
+  		animation-duration: 1s;
+  		animation-name: leftBlockOneBef;
+  		animation-delay: 5.5s;
+  		animation-fill-mode: forwards;
+  		opacity: 1;
+    	border-radius: 43px;
+	}
+
+
+ 	.leftBlockTwo{
+ 		position: relative;
+  		animation-duration: 1s;
+  		animation-name: text;
+  		animation-delay: 5.5s;
+  		animation-fill-mode: forwards;
+  		opacity: 0;
+    	margin: 20vh 0;
+
+ 	}
+
+	.leftBlockTwo::before {
+		content: '';
+		display: block;
+		position: absolute;
+		height: 6px;
+		left: 100%;
+		bottom: 50%;
+		right: 0;
+		background-color: #9cffff;
+		transition: .3s;
+		-webkit-transition: .3s;
+		left: 100%;
+  		animation-duration: 1s;
+  		animation-name: leftBlockOneBef;
+  		animation-delay: 5.5s;
+  		animation-fill-mode: forwards;
+  		opacity: 1;
+    	border-radius: 43px;
+	}
+
+ 	.leftBlockThree{
+ 		position: relative;
+  		animation-duration: 1s;
+  		animation-name: text;
+  		animation-delay: 5.5s;
+  		animation-fill-mode: forwards;
+  		opacity: 0;
+ 	}
+
+
+	.leftBlockThree::after {
+		content: '';
+		display: block;
+		position: absolute;
+		height: 6px;
+	    right: -50px;	    
+    	bottom: 121px;
+		background-color: #9cffff;
+
+		transform: rotate(-60deg);
+		transform-origin: 100% 100%;
+
+		width: 0;
+
+  		animation-duration: 1s;
+  		animation-name: leftBlockOneAf;
+  		animation-delay: 5s;
+ 		animation-fill-mode: forwards;	
+  		opacity: 1;
+    	border-radius: 43px;
+
+	}
+	.leftBlockThree::before {
+		content: '';
+		display: block;
+		position: absolute;
+		height: 6px;
+		left: 100%;
+		bottom: 50%;
+		right: 0;
+		background-color: #9cffff;
+		transition: .3s;
+		-webkit-transition: .3s;
+		left: 100%;
+  		animation-duration: 1s;
+  		animation-name: leftBlockOneBef;
+  		animation-delay: 5.5s;
+  		animation-fill-mode: forwards;
+  		opacity: 1;
+    	border-radius: 43px;
+	}
+
+.rightBlock span {
+    width: 254px;
+    display: block; 
+    margin-left: auto;
+}
+
+  .rightBlockOne{
+    position: relative;
+      animation-duration: 1s;
+      animation-name: text;
+      animation-delay: 5.5s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+      text-align: right;
+  }
+
+
+  .rightBlockOne::after {
+  content: '';
+    display: block;
+    position: absolute;
+    height: 6px;
+    bottom: 106px;
+    left: -93px;
+    background-color: #9cffff;
+    transform: rotate(-60deg);
+    transform-origin: 100% 100%;
+    width: 0;
+    animation-duration: 1s;
+    animation-name: leftBlockOneAf;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    border-radius: 43px;
+
+  }
+  .rightBlockOne::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 6px;
+    left: 0;
+    bottom: 50%;
+    right: 100%;
+    background-color: #9cffff;
+    transition: .3s;
+    -webkit-transition: .3s;
+      animation-duration: 1s;
+      animation-name: rightBlockOneBef;
+      animation-delay: 5.5s;
+      animation-fill-mode: forwards;
+      opacity: 1;
+      border-radius: 43px;
+  }
+
+
+  .rightBlockTwo{
+    position: relative;
+      animation-duration: 1s;
+      animation-name: text;
+      animation-delay: 5.5s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+      margin: 20vh 0;
+  }
+
+  .rightBlockTwo::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 6px;
+    left: 0;
+    bottom: 50%;
+    right: 100%;
+    background-color: #9cffff;
+    transition: .3s;
+    -webkit-transition: .3s;
+      animation-duration: 1s;
+      animation-name: rightBlockOneBef;
+      animation-delay: 5.5s;
+      animation-fill-mode: forwards;
+      opacity: 1;
+      border-radius: 43px;
+  }
+
+  .rightBlockThree{
+    position: relative;
+      animation-duration: 1s;
+      animation-name: text;
+      animation-delay: 5.5s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+      text-align: right;
+  }
+  .rightBlockThree::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 6px;
+    bottom: 35px;
+    left: -99px;
+    background-color: #9cffff;
+    transform: rotate(60deg);
+    transform-origin: 100% 100%;
+    width: 0;
+    animation-duration: 1s;
+    animation-name: leftBlockOneAf;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    border-radius: 43px;
+}
+  .rightBlockThree::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 6px;
+    left: 0;
+    bottom: 50%;
+    right: 100%;
+    background-color: #9cffff;
+    transition: .3s;
+    -webkit-transition: .3s;
+      animation-duration: 1s;
+      animation-name: rightBlockOneBef;
+      animation-delay: 5.5s;
+      animation-fill-mode: forwards;
+      opacity: 1;
+      border-radius: 43px;
+  }
+@keyframes leftBlockOneAf {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100px;
+  }
+}
+
+@keyframes leftBlockOneBef {
+  from {
+  left: 100%;
+    opacity: 1;
+  }
+  to {
+  left: 70%;
+    opacity: 1;
+  }
+}
+
+
+@keyframes rightBlockOneBef {
+  from {
+  right: 100%;
+    opacity: 1;
+  }
+  to {
+  right: 70%;
+    opacity: 1;
+  }
+}
+
+@keyframes text {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
