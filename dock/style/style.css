@@ -1,16 +1,16 @@
  @font-face {
     font-family: Roboto-Regular; /* Имя шрифта */
-    src: url(fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
  }
  @font-face {
     font-family: Roboto-Medium; /* Имя шрифта */
-    src: url(fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
 }
 body{
     font-family: Roboto-Regular; /* Имя шрифта */
 }
 .header{
-	background: url(images/bg_header.png),  linear-gradient(90.05deg, #87A649 5.96%, #95B05E 10.62%, #A1B970 14.72%, #FFFFFF 56.65%);
+	background: url(../images/bg_header.png),  linear-gradient(90.05deg, #87A649 5.96%, #95B05E 10.62%, #A1B970 14.72%, #FFFFFF 56.65%);
     background-repeat: no-repeat;
     background-position: right bottom;
     position: relative;
@@ -180,7 +180,7 @@ header{
 
 .diag img::before{
 	content: ' ';
-	background-image: url(images/list-1.png);
+	background-image: url(../assets/templates/vostokcelitel/assets/images/list-1.png);
 	background-size: contain;
     z-index: 3;
 }
@@ -192,7 +192,7 @@ header{
 }
 .diag-block:after{
 	content: '';
-	background-image: url(images/item_diag.png);
+	background-image: url(../images/item_diag.png);
 	background-size: cover;
 	width: 350px;
 	height: 180px;
@@ -225,7 +225,7 @@ header{
 }
 
 .store{
-	background: url(images/bg_store.png);
+	background: url(../images/bg_store.png);
 	border-radius: 30px;
     margin-top: 250px;
     background-size: cover;
@@ -237,7 +237,7 @@ header{
 }
 .store-container:after{
     content: ' ';
-    background-image: url(images/store-after.png);
+    background-image: url(../images/store-after.png);
     display: block;
     width: 352px;
     height: 192px;
@@ -248,7 +248,7 @@ header{
 }
 .store-container:before{
 	content: ' ';
-    background-image: url(images/store-before.png);
+    background-image: url(../images/store-before.png);
     display: block;
     width: 157px;
     height: 225px;
@@ -338,7 +338,7 @@ header{
 }
 .goods:after{
 	content: " ";
-	background-image: url(images/goods-after.png);
+	background-image: url(../images/goods-after.png);
     height: 338px;
     width: 250px;
 	display: block;
@@ -387,7 +387,7 @@ header{
 }
 .rewive:after{
 	content: " ";
-	background-image: url(images/rewive-after.png);
+	background-image: url(../images/rewive-after.png);
     height: 236px;
     width: 308px;
 	display: block;
@@ -399,7 +399,7 @@ header{
 }
 .rewive:before{
 	content: " ";
-	background-image: url(images/rewive-before.png);
+	background-image: url(../images/rewive-before.png);
     display: block;
     width: 213px;
     height: 318px;
@@ -412,7 +412,7 @@ header{
 }
 .rewive-rate:before{
 	content: " ";
-	background-image: url(images/rewive-before-2.png);
+	background-image: url(../images/rewive-before-2.png);
     display: block;
     width: 300px;
     height: 259px;
@@ -426,7 +426,7 @@ header{
 	margin: 0 auto;
 }
 .rewive{
-	background-image: url(images/bg_rewive.png);
+	background-image: url(../images/bg_rewive.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -501,7 +501,7 @@ header{
     margin: 35px 0px 35px 65px;
 }
 .serif{
-	background-image: url(images/bg_sertif.png);
+	background-image: url(../images/bg_sertif.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -613,7 +613,7 @@ ul.slick-dots{
 	display: block;
 	width: 200px;
 	height: 188px;
-	background-image: url(images/rewive-before.png);
+	background-image: url(../images/rewive-before.png);
 }
 .popup-whatsapp_title{
 	font-weight: bold;
@@ -681,7 +681,7 @@ a.mobWhatsapp{
 }
 .content_back a:before{
 	content: ' ';
-	background-image: url(images/icon-back.png);
+	background-image: url(../images/icon-back.png);
 	display: block;
  	background-size: cover;
  	background-repeat: no-repeat;
@@ -965,6 +965,9 @@ a.mobWhatsapp{
 
 
 @media screen and (max-width: 576px) {
+	.listt{
+		display: none;
+	}
 	.diag-block:after {
     left: 0;
     transform: scale(-1, 1);
@@ -1032,6 +1035,7 @@ a.mobWhatsapp{
 	.diag-button {
     	font-size: 22px;
     	padding: 20px 6px;
+    	flex-direction: 
 }
 	.header-list{
 		color: #384B14;
@@ -1042,4 +1046,34 @@ a.mobWhatsapp{
 	.header-list ul {
 		font-size: 18px;
 }
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+}	
+
+}
+@media screen and (max-width: 460px){
+
+.header-button {
+    font-size: 10px;
+    width: 195px;
+    margin: 21px 4px;
+    padding: 7px 10px;
+}
+.header-buttons {
+    display: flex;
+    flex-direction: unset;
+}	
+}
+
+
+@media {
+
+}
+
+.diag .col-12{
+	position: unset;
+}
+.rewive .col{
+	position: unset;
 }
