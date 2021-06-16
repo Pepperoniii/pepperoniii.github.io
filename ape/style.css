@@ -86,7 +86,7 @@
 		position: absolute;
 		height: 6px;
     	right: -45px;
-    	bottom: -50px;
+    bottom: -52px;
 		background-color: #9cffff;
 
 		transform: rotate(60deg);
@@ -171,7 +171,7 @@
 		position: absolute;
 		height: 6px;
 	    right: -50px;	    
-    	bottom: 121px;
+    bottom: 118px;
 		background-color: #9cffff;
 
 		transform: rotate(-60deg);
@@ -229,7 +229,7 @@
     display: block;
     position: absolute;
     height: 6px;
-    bottom: 106px;
+    bottom: 97px;
     left: -93px;
     background-color: #9cffff;
     transform: rotate(-60deg);
@@ -307,7 +307,7 @@
     display: block;
     position: absolute;
     height: 6px;
-    bottom: 35px;
+    bottom: 31px;
     left: -99px;
     background-color: #9cffff;
     transform: rotate(60deg);
